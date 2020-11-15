@@ -1,5 +1,9 @@
-# **Estudos**
-Em breve vou estar adicionando as anotações. Só tenho que aprender a usar o *README*, HaHaHa =]
+# *E s t u d o s*
+### Bom aqui, nesse repositorio eu vou estar salvando meu material de estudos.
+### caso queria dar uma olhadinha fique a vontade. Minhaa anotações estão
+### no notion por motivo de preferencia mesmo, mas caso queria da uma lida,
+### é só clicar no Caderno logo abaixo. 
+![Conteudo do caderno](https://github.com/NiziulLuizin/EstudosP/blob/main/GifCaderno.gif)
 
 # ***Anotações***
 
