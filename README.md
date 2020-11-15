@@ -15,7 +15,7 @@ no notion por motivo de preferencia mesmo, mas caso queria da uma lida,
 
 
 
-> ## `Html5 e Css3`
+> ## `HTML5 e CSS3`
 > ### *Recomendações:* 
 >Caso esteja pelo computador acesse a  barra `Style`  do Notion, e deixe desabilitado o `Full Width`.
 
