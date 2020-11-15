@@ -1,11 +1,11 @@
-# **E s t u d o s**
+# Resumo {
 Bom aqui, nesse repositório eu vou estar salvando meu material de estudos.
 
 caso queria dar uma olhadinha fique a vontade. Minha anotações estão
 
 no notion por motivo de preferencia mesmo, mas caso queria da uma lida,
 
-é só ir em anotações e clicar no Caderno logo abaixo. 
+é só ir em anotações e clicar no Caderno logo abaixo. }
 
 # **Anotações**
 
