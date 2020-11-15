@@ -13,9 +13,8 @@ no notion por motivo de preferencia mesmo, mas caso queria da uma lida,
 
 
 > ## `Html5 e Css3`
-> #### *Recomendações:* 
->
-Caso esteja pelo computador acesse a  barra `Style`  do Notion, e deixe desabilitado o `Full Width`.
+> ### *Recomendações:* 
+>Caso esteja pelo computador acesse a  barra `Style`  do Notion, e deixe desabilitado o `Full Width`.
 
 > Caso esteja pelo celular, recomendo olhar o conteúdo na `horizontal`,  para ter uma  melhor                                                                                         Experiência.                    
 >
