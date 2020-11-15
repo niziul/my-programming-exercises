@@ -17,15 +17,14 @@ no notion por motivo de preferencia mesmo, mas caso queria da uma lida,
 
 > ## `HTML5 e CSS3`
 > ### *Recomendações:* 
->Caso esteja pelo computador acesse a  barra `Style`  do Notion, e deixe desabilitado o `Full Width`.
-
+> Caso esteja pelo computador acesse a  barra `Style`  do Notion, e deixe desabilitado o `Full Width`.
+>
 > Caso esteja pelo celular, recomendo olhar o conteúdo na `horizontal`,  para ter uma  melhor                                                                                         Experiência.                    
 >
-
->- [CadernoP](https://www.notion.so/CadernoP-ebb6e013cf5244c2824d57f90d65e309)
+> [CadernoP](https://www.notion.so/CadernoP-ebb6e013cf5244c2824d57f90d65e309)
+>
 > 
-> 
-
->  ![Conteudo do caderno](https://github.com/NiziulLuizin/EstudosP/blob/main/GifCaderno.gif)
+>
+> ![Conteudo do caderno](https://github.com/NiziulLuizin/EstudosP/blob/main/GifCaderno.gif)
 
 
