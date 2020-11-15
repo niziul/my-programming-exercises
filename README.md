@@ -14,21 +14,7 @@ no notion por motivo de preferencia mesmo, mas caso queria da uma lida,
 
 > ## `Html5 e Css3`
 >
-> *Recomendações:* 
->
-> {Caso esteja pelo computador acesse
->
->  a barra `Style` do Notion, e deixe des-
->
-> habilitado o `Full Width`.
->
-> 
->
-> Caso esteja pelo celular, recomendo
->
-> olhar o conteúdo na `horizontal`, para
->
-> uma melhor experiência.}
+> [^Recomendações]: Caso esteja pelo computador acesse a                                                                                                                                                                                     barra `Style`  do Notion, e deixe desabilitado o `Full Width`.                                                                                                                                                                                                            Caso esteja pelo celular, recomendo olhar o conteúdo                                                                                                                                                                                                                       olhar o conteúdo na `horizontal`  para uma  melhor                                                                                                                                                                                                                            Experiência.                    
 >
 > - [CadernoP](https://www.notion.so/CadernoP-ebb6e013cf5244c2824d57f90d65e309)
 >
