@@ -1,4 +1,7 @@
+![](https://github.com/NiziulLuizin/EstudosP/blob/main/Captura%20de%20tela%202020-11-13%20235111.png)
+
 # Resumo {
+
 Bom aqui, nesse repositório eu vou estar salvando meu material de estudos.
 
 caso queria dar uma olhadinha fique a vontade. Minha anotações estão
