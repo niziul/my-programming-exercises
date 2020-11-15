@@ -5,7 +5,8 @@ caso queria dar uma olhadinha fique a vontade. Minha anotações estão
 
 no notion por motivo de preferencia mesmo, mas caso queria da uma lida,
 
-é só ir em anotações e clicar no Caderno logo abaixo. }
+é só ir em anotações e clicar no Caderno logo abaixo. 
+# }
 
 # **Anotações**
 
