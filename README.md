@@ -13,7 +13,7 @@ no notion por motivo de preferencia mesmo, mas caso queria da uma lida,
 
 # **Anotações**
 
-
+*As anotações do curso abaixo foi baseada nas aulas do Prof* @gustavoguanabara, *do site*  *[CursoEmVideo](https://www.cursoemvideo.com).*
 
 > ## `HTML5 e CSS3`
 > ### *Recomendações:* 
@@ -26,5 +26,6 @@ no notion por motivo de preferencia mesmo, mas caso queria da uma lida,
 > 
 >
 > ![Conteudo do caderno](https://github.com/NiziulLuizin/EstudosP/blob/main/GifCaderno.gif)
+
 
 
