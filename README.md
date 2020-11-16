@@ -29,8 +29,10 @@ no notion por motivo de preferencia mesmo, mas caso queria da uma lida,
 
 
 
+------
 
 
 
+# >                                                :first_quarter_moon:  *Eu ae*  :first_quarter_moon:                                          <
 
 <img src="https://raw.githubusercontent.com/NiziulLuizin/EstudosP/main/GifCodeSong.gif" alt="GifCodeSong" style="zoom:80%;" />
