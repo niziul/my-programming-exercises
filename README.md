@@ -13,7 +13,7 @@ no notion por motivo de preferencia mesmo, mas caso queria da uma lida,
 
 # **Anotações**
 
-*As anotações do curso abaixo foi baseada nas aulas do Prof*  *[@Guanabara](https://github.com/gustavoguanabara)*, *do site*  *[CursoEmVideo](https://www.cursoemvideo.com).*
+*As anotações abaixo foi baseada nas aulas do Prof*  *[@Guanabara](https://github.com/gustavoguanabara)*, *do site*  *[CursoEmVideo](https://www.cursoemvideo.com).*
 
 > ## `HTML5 e CSS3`
 > ### *Recomendações:* 
