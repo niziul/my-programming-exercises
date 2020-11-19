@@ -1,4 +1,4 @@
-![](https://github.com/NiziulLuizin/EstudosP/blob/main/Captura%20de%20tela%202020-11-13%20235111.png)
+![](https://raw.githubusercontent.com/NiziulLuizin/EstudosP/main/Imagens/Captura%20de%20tela%202020-11-13%20235111.png)
 
 # Resumo 
 
@@ -25,16 +25,4 @@ no notion por motivo de preferencia mesmo, mas caso queria da uma lida,
 >
 > 
 >
-> ![Conteudo do caderno](https://github.com/NiziulLuizin/EstudosP/blob/main/GifCaderno.gif)
-
-
-
-------
-
-
-
-
-
-# > -----------------------:first_quarter_moon:  *Eu ae*  :first_quarter_moon:----------------------- <
-
-<img src="https://raw.githubusercontent.com/NiziulLuizin/EstudosP/main/GifCodeSong.gif" alt="GifCodeSong" style="zoom:80%;" />
+> ![Conteudo do Caderno](https://raw.githubusercontent.com/NiziulLuizin/EstudosP/main/Gifs/GifCaderno.gif)
