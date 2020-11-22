@@ -13,14 +13,13 @@
 
  *As anotações abaixo foi baseada nas aulas do Prof*  *[@Guanabara](https://github.com/gustavoguanabara)*, *do site*  *[CursoEmVideo](https://www.cursoemvideo.com).*
 
- ## `HTML5 e CSS3`
  ### *Recomendações:* 
- Caso esteja pelo computador acesse a  barra `Style`  do Notion, e deixe desabilitado o `Full Width`.
+Caso esteja pelo computador acesse a  barra `Style`  do Notion, e deixe desabilitado o `Full Width`.
 
- Caso esteja pelo celular, recomendo olhar o conteúdo na `horizontal`,  para ter uma  melhor                                                                                         Experiência.                    
-
+Caso esteja pelo celular, recomendo olhar o conteúdo na `horizontal`,  para ter uma  melhor Experiência.
+ 
+ ## `HTML5 e CSS3`                    
  [CadernoP](https://www.notion.so/CadernoP-ebb6e013cf5244c2824d57f90d65e309)
 
- 
-
-![Conteudo do Caderno](https://raw.githubusercontent.com/NiziulLuizin/EstudosP/main/Gifs/GifCaderno.gif)
+ ## `JavaScript`
+ [CadernoJ](https://www.notion.so/CadernoJ-30023874700f4109be384000b05df799)
