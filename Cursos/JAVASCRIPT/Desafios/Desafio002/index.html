@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio Boas-Vindas</title>
+    <style>
+        h1 {
+            font-size: 50px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+        button {
+            width: 180px;
+            height: 80px;
+            font-size: 20px;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>Boas-Vindas</h1>
+
+    <button onclick = "inicio()">Inicie o desafio</button>
+    <script>
+        function inicio() {
+            let nome = window.prompt("Qual seu nome?")
+            let idade = window.prompt(`Olá, ${nome}! Qual é sua idade?`)
+            window.alert(`Acabei de conhecer o mano ${nome}, que tem ${idade}!`)
+        }
+    </script>
+</body>
+</html>
