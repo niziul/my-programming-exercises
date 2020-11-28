@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cálculo de Desconto</title>
+    
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="telaInicial">
+        <h1>Calcular Desconto</h1>
+
+        <button onclick="BoDesc()">
+            Desconto de 10%
+        </button>
+
+        <p id="Sumi">Clique no botão acima para iniciar</p>
+
+        <div>
+            <h2 id="txt"></h2>
+
+            <p id="PreÇ"></p>
+            <p id="DesçP"></p>
+            <p id="Fpreç"></p>
+        </div>
+    </div>
+
+    <script>
+        function BoDesc() {
+            let nomeP = window.prompt("Qual é o produto que você está comprando?")
+            let preçoP = Number(window.prompt(`Qual é o preço de ${nomeP}?`))
+            let Des = (preçoP * 0.10) 
+            let DesÇ = preçoP - Des
+            
+            Sumi.innerHTML = ""
+            txt.innerHTML = `Calculando desconto de 10% para ${nomeP}`
+            PreÇ.innerHTML = `O preço original era R$ ${preçoP.toFixed(2).replace(".", ",")}.`
+            DesçP.innerHTML = `Você acaba de ganhar R$ ${Des.toFixed(2).replace(".", ",")} de desconto (-10%).`
+            Fpreç.innerHTML = `No fim, você vai pagar R$ ${DesÇ.toFixed(2).replace(".", ",")} no produto ${nomeP}.`
+        }
+    </script>
+</body>
+</html>
