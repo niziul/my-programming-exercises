@@ -1,0 +1,35 @@
+body {
+    background-color: rgb(245, 126, 126);
+    font: normal 15pt Arial;
+}
+
+header {
+    color: white; 
+    text-align: center;
+}
+
+section {
+    background-color: white;
+    text-align: center;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.411);
+}
+
+footer {
+    color: white;
+    text-align: center;
+    font-style: italic;
+}
+
+button {
+    width: 200px;
+    height: 55px;
+    border-style: none;
+    border-radius: 10px;
+    font-size: 15pt;
+    font-family: monospace;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.24);
+}
