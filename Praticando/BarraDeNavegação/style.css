@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    background-image: url(Imagens/SpaceX.jpg);
+    background-size: cover;
+    display: table;
+}
+
+.j1 {
+    text-align: center;
+}
+
+.nav {
+    height: 30px;
+}
+
+ul {
+    margin: 90px auto;
+    width: 800px;
+    height: 50px;
+    list-style: none;
+    background: rgba(0, 0, 0, 0.11);
+}
+
+li {
+    margin-top: 26px;
+    display: inline;
+}
+
+li a {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: 'Amaranth', sans-serif;
+    font-weight: lighter;
+    font-size: 24px;
+    transition: 1s;
+    padding: 1px 30px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.274);
+}
+
+li a:hover {
+    transition: 0.5s;
+    color: black;
+    background: rgba(255,255,255,0.7);
+}
