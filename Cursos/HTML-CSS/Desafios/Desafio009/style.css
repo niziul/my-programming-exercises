@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Mono&display=swap');
+
+body {
+    position: relative;
+    background-color: rgb(80, 141, 255);
+    top: 50px;
+}
+
+img {
+   width: 520px;
+}
+
+section {
+    position: relative;
+    top: 18px;
+    width: 1100px;
+    height: 620px;
+    margin: auto;
+    padding: auto;
+    border-radius: 14px;
+    background-color: rgb(255, 255, 255);
+    border-style: solid;
+    border-color: rgba(0, 0, 0, 0.205);
+    box-shadow: 1px 1px 20px 10px rgba(0, 0, 0, 0.603);
+}
+
+header h1 {
+    text-align: center;
+    font-size: 28pt;
+    color: white;
+    font-family: 'PT Mono', monospace;
+}
+
+section iframe {
+    position: relative;
+    width: 1000px;
+    height: 600px;
+    top: 10px;
+    left: 45px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.486);
+}
+
+body .BVoltar img {
+    position: relative;
+    width: 80px;
+    height: 80px;
+    align-items: center;
+    top: 180px;
+    left: 1195px;
+    border-radius: 40px;
+    box-shadow: 1px 1px 20px;
+}
+
+section .Imagens {
+    position: relative;
+    text-align: center;
+    top: 10px;
+}
+
+section div .FotOne {
+    border-radius: 6px;
+    box-shadow: 2px 2px 8px rgb(0, 0, 0);
+}
+
+section div .FotTwo {
+    border-radius: 6px;
+    box-shadow: 2px 2px 8px black;
+}
+
+section div .FotTree {
+    border-radius: 6px;
+    box-shadow: 2px 2px 8px black;
+}
+
+section div .FotFrow {
+    border-radius: 6px;
+    box-shadow: 2px 2px 8px black;
+}
+
