@@ -5,6 +5,7 @@
     <title>Calculadora GlassMorphism</title>
 </head>
 <body>
+    
     <div class="BaseInicial">
         <form class="Calculadora" name="calc">
             <input type="text" readonly class="value" name="txt"/>
@@ -28,6 +29,7 @@
             <span class="num equal" onclick="document.calc.txt.value =eval(calc.txt.value)">=</span>
         </form>
     </div>
+
     <script type="text/javascript" src="vanilla-tilt.js"></script>
     <script type="text/javascript">
 	VanillaTilt.init(document.querySelector(".BaseInicial"), {
@@ -37,5 +39,6 @@
         "max-glare": 0.2,
 	    });
     </script>
+
 </body>
 </html>
