@@ -1,6 +1,7 @@
 body {
     background: #0CF2B1;
     font: normal 15pt Arial;
+    margin-top: 150px;
 }
 
 header {
@@ -42,7 +43,8 @@ section .CampoPergunta input {
 }
 
 section div .CampoResposta {
-    height: 280px;
+    font-size: 16px;
+    text-align: center;
     outline: none;
     border-color: #183940;
     box-shadow: 1px 5px 2px 1px #0cf2b169;
@@ -52,8 +54,8 @@ section div button {
     font-size: 15px;
     margin-left: 10px;
     height: 40px;
+    outline: none;
     border-width: 5px;
     border-color: #0CF2B1;
     background-color: rgb(255, 255, 255);
-    outline: none;
 }
