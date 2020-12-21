@@ -32,7 +32,7 @@ section .InputPergunta {
     text-align: center;
 }
 
-section .CampoPergunta input {
+section .CampoPergunta .txtr {
     outline: none;
     height: 30px;
     width: 160px;
@@ -42,17 +42,21 @@ section .CampoPergunta input {
     box-shadow: 1px 4px 0px 1px #0cf2b169;
 }
 
-section div .CampoResposta {
-    font-size: 16px;
-    text-align: center;
+section div .seltab {
+    width: 170px;
+    height: 320px;
+    font-size: 25px;
     outline: none;
     border-color: #183940;
     box-shadow: 1px 5px 2px 1px #0cf2b169;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    
 }
 
 section div button {
     font-size: 15px;
-    margin-left: 10px;
+    margin-left: 5px;
     height: 40px;
     outline: none;
     border-width: 5px;

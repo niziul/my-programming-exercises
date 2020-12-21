@@ -20,6 +20,7 @@ div {
     border-bottom: none;
     font-size: 14pt;
     cursor: pointer;
+    outline: none;
     color: white;
     background-color: rgba(0, 0, 0, 0.514);
     box-shadow: 3px 3px 5px 2px rgba(255, 255, 255, 0.473);
