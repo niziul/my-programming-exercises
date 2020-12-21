@@ -1,0 +1,59 @@
+body {
+    background: #0CF2B1;
+    font: normal 15pt Arial;
+}
+
+header {
+    color: white; 
+    text-align: center;
+}
+
+section {
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 3px 3px 10px #183940;
+}
+
+footer {
+    color: white;
+    text-align: center;
+    font-style: italic;
+}
+
+section .InputResposta {
+    text-align: center;
+}
+
+section .InputPergunta {
+    text-align: center;
+}
+
+section .CampoPergunta input {
+    outline: none;
+    height: 30px;
+    width: 160px;
+    font-size: 20px;
+    text-align: center;
+    margin-left: 1.5px;
+    box-shadow: 1px 4px 0px 1px #0cf2b169;
+}
+
+section div .CampoResposta {
+    height: 280px;
+    outline: none;
+    border-color: #183940;
+    box-shadow: 1px 5px 2px 1px #0cf2b169;
+}
+
+section div button {
+    font-size: 15px;
+    margin-left: 10px;
+    height: 40px;
+    border-width: 5px;
+    border-color: #0CF2B1;
+    background-color: rgb(255, 255, 255);
+    outline: none;
+}

@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;300&display=swap');
+
+body {
+    background-color: white;
+}
+
+header {
+    text-align: center;
+    font-size: 14pt;
+    font-family: 'Ubuntu Mono', monospace;
+    color: rgb(0, 0, 0);
+}
+
+section div p {
+    position: relative;
+    text-align: left;
+    font-size: 15pt;
+    left: 10px;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+section .AzeroOne {
+    text-align: center;
+    width: 520px;
+    height: 270px;
+    background-color: rgb(46, 255, 238);
+    margin: auto;
+    border-radius: 15px;
+    box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.308);
+}
+
+section .AzeroTwo {
+    position: relative;
+    text-align: center;
+    top: -288px;
+    left: 410px;
+}

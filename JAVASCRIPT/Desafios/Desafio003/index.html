@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Antes e Depois</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="tela">
+        <h1> Antes e Depois</h1>
+        <button onclick="inicio()"> 
+            Antecessor e Sucessor
+        </button>
+    </div>
+
+    <script>
+        function inicio() {
+            var numero = Number.parseInt(window.prompt("Digite um número inteiro qualquer."))
+            var s = numero + 1
+            var m = numero - 1
+
+            //Caso você saiba como fazer a quebra da linha nesse alert sem precisa quebra a endentação, por favor, me fale.
+            window.alert(`Antes de ${numero}, temos o número ${m}. 
+Depois de ${numero}, temos o número ${s}.`)
+        }
+        
+    </script>
+</body>
+</html>

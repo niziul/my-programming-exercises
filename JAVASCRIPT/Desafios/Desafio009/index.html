@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reajustar Salárial</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Display:wght@600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="inicio">
+        <h1>Reajuste salarial</h1>
+
+        <button onclick="BotãoD()"> 
+            Reajustar Salário
+        </button>
+
+        <p id="Sumir">Clique no botão acima para iniciar.</p>
+
+        <div class="Ress">
+            <h2 id="txt"></h2>
+
+            <p id="salarA"></p>
+            <p id="SalaA"></p>
+            <p id="salarioAu"></p>
+        </div>
+    </div>
+
+    <script>
+        function BotãoD() {
+            let nomeF = window.prompt("Qual é o nome do funcionário?")
+            let salF = Number(window.prompt(`Qual é o salário de ${nomeF}?`))
+            let reaJ = Number.parseInt(window.prompt(`O salário de ${nomeF} vai ser reajustado em qual porcentagem?`))
+
+            let DescontR = (salF * reaJ) / 100
+            let SalarioR =  DescontR + salF 
+
+            Sumir.innerHTML = ""
+            txt.innerHTML = `${nomeF} recebeu um aumento salarial!`
+
+            salarA.innerHTML = `O salário atual era R$ ${salF.toFixed(2)}.`
+            
+            SalaA.innerHTML = `Com um aumento de ${reaJ}% o salário vai aumentar R$ ${DescontR.toFixed(2)} no próximo mês.`
+            
+            salarioAu.innerHTML = `E a partir daí, ${nomeF} vai passar a ganhar R$ ${SalarioR.toFixed(2)}`
+        }
+    </script>
+</body>
+</html>

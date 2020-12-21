@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor R$ -> US$</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <script>
+        var contC = Number(window.prompt("Antes de mais nada. Quanto está a cotação do dólar agora?"))
+    </script>
+    <div class="inicio">
+        <h1>Conversor R$ &rarr; US$</h1>
+
+        <button onclick="convert()">
+            Converter
+        </button>
+
+        <p id="sumi">Clique no botão acima para iniciar.</p>
+    </div>
+
+    <div class="ress">
+        <h1 id="C"></h1>
+
+        <p id="Dl"></p>
+    </div>
+    <script>
+        function convert() {
+            let DinC = window.prompt("Quantos R$ você tem na carteira?")
+            let ConC = contC / DinC 
+
+            sumi.innerHTML = ""
+            C.innerHTML = "Conversão:"
+            Dl.innerHTML = `US$ ${ConC.toFixed(2)}`
+        }
+    </script>
+</body>
+</html>

@@ -1,7 +1,7 @@
-![](https://raw.githubusercontent.com/NiziulLuizin/EstudosP/main/Imagens/Captura%20de%20tela%202020-11-13%20235111.png)
-<h2 align="center">
-    Resumo 
+<h2 align="leght">
+    Sobre:
 </h2>
 <p align = "center">
-   Bom aqui, nesse repositório eu vou estar salvando meu material de estudos. caso queria dar uma olhadinha fique a vontade.
+   Esse repositório serve para salva meus <strong>matérias de estudos.</strong> Fique a vontade para dar uma olhada.
 </p>
+
