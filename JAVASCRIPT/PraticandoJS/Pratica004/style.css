@@ -45,7 +45,7 @@ section .CampoPergunta .txtr {
 section div .seltab {
     width: 170px;
     height: 320px;
-    font-size: 25px;
+    font-size: 29px;
     outline: none;
     border-color: #183940;
     box-shadow: 1px 5px 2px 1px #0cf2b169;
