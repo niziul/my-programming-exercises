@@ -38,13 +38,11 @@ section iframe {
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.486);
 }
 
-body .BVoltar img {
+section a .FotBot{
     position: relative;
+    top: 220px;
+    right: 500px;
     width: 80px;
-    height: 80px;
-    align-items: center;
-    top: 180px;
-    left: 1195px;
     border-radius: 40px;
     box-shadow: 1px 1px 20px;
 }
