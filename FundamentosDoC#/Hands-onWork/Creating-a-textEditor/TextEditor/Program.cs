@@ -42,8 +42,11 @@ namespace CreateATextEditor
             Console.Write("-[ ");
 
             string path = Console.ReadLine();
-
+            
+            Console.Clear();
+            
             Console.WriteLine("]-----------------------[");
+            Console.WriteLine();
 
             using (var file = new StreamReader(path))
             {
@@ -51,8 +54,7 @@ namespace CreateATextEditor
                 
                 Console.WriteLine(text);
             }
-
-            Console.WriteLine();
+            Console.WriteLine("]-----------------------[");
 
             Console.ReadLine();
 
@@ -67,13 +69,21 @@ namespace CreateATextEditor
             Console.WriteLine();
             
             string text = "";
+            
+            int numberOfTheLine = 1;
 
-            do 
+            Console.Write($"[{numberOfTheLine}] - ");
+
+            while (Console.ReadKey().Key is not ConsoleKey.Escape) 
             {
+                numberOfTheLine++;
+
                 text += Console.ReadLine();
                 text += Environment.NewLine;
+                
+                Console.Write($"[{numberOfTheLine}] - ");
             }
-            while (Console.ReadKey().Key is not ConsoleKey.Escape);
+            
             
             Console.Clear();
             Console.WriteLine("-----------------------[");
