@@ -77,7 +77,7 @@ namespace Guids
 
             Console.WriteLine($"-- Olds ids :\n{ReturnWhatYouReadInTheLegacy()}");
 
-            SavingAndManagingGloballyUniqueIdentifierInLegacyTextFile(TextFile.SAVING);
+            ManageTheGlobalUniqueIdentifiersInTheLegacyTextFile(TextFile.SAVING);
             
 
             Console.Write("[");
@@ -90,7 +90,7 @@ namespace Guids
                 Console.Write("-");
         }
 
-        static void SavingAndManagingGloballyUniqueIdentifierInLegacyTextFile(TextFile doWhat)
+        static void ManageTheGlobalUniqueIdentifiersInTheLegacyTextFile(TextFile doWhat)
         {
             OpenTextFile();
 
