@@ -12,8 +12,8 @@
     - [Source](https://github.com/NiziulLuizin/EstudosP/blob/main/FundamentosDoC%23/Hands-onWork/Creating-a-stopwatch/Stopwatch/Program.cs)
   + [Simples editor de texto](https://github.com/NiziulLuizin/EstudosP/tree/main/FundamentosDoC%23/Hands-onWork/Creating-a-textEditor/TextEditor)  
     - [Source](https://github.com/NiziulLuizin/EstudosP/blob/main/FundamentosDoC%23/Hands-onWork/Creating-a-textEditor/TextEditor/Program.cs)
-  + [Gerador de Guids](https://github.com/NiziulLuizin/EstudosP/tree/main/FundamentosDoC%23/Strings/Guids)  
-    - [Source](https://github.com/NiziulLuizin/EstudosP/blob/main/FundamentosDoC%23/Strings/Guids/Program.cs)
+  + [Gerador de Guids](https://github.com/NiziulLuizin/EstudosP/tree/main/FundamentosDoC%23/Strings/MeuAppGuids)  
+    - [Source](https://github.com/NiziulLuizin/EstudosP/blob/main/FundamentosDoC%23/Strings/MeuAppGuids/Program.cs)
 
 
 <p align = "center">
