@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Guids 
+namespace MeuAppGuids 
 {
     class Program
     {
