@@ -21,7 +21,7 @@ namespace Guids
             /*
                 Globally Unique Identifier
             */
-            public static Guid Id {get; set;} = Id = Guid.NewGuid();
+            public static Guid Id {get; set;} = Guid.NewGuid();
             public static string ?InString {get; set;}           
             public static string ?InSubstring {get; set;}           
         }
@@ -29,7 +29,7 @@ namespace Guids
         struct TextFileLegacy
         {
             public static string ?ContentsOfLegacy {get; set;}
-            public static string path = "LegacyTextFile.txt";    
+            public static string Path = "LegacyTextFile.txt";    
         }
         
         static void ConsoleInterface()
@@ -42,6 +42,8 @@ namespace Guids
             Console.Write("[");
             MenuSkeleton();
             Console.Write("]");
+            
+            Console.Beep();
 
             Console.WriteLine("~ Hello, world! xd");
 
@@ -49,6 +51,11 @@ namespace Guids
 
             Console.WriteLine($"-- Lagest Window Width: {Console.LargestWindowWidth}");
             Console.WriteLine($"-- Window Height : {Console.WindowHeight}");
+
+
+            Thread.Sleep(2000);
+
+            Console.Beep();
 
             Console.WriteLine();
         }
@@ -58,7 +65,11 @@ namespace Guids
             OldGloballyUniqueIdentifier.InSubstring += OldGloballyUniqueIdentifier.Id.ToString().Substring(0, 8);
             
 
-            Console.WriteLine($"-- New id (used GUID) :\n[{OldGloballyUniqueIdentifier.InString}]");
+            Console.WriteLine($"-- New id (used GUID) :\n[{OldGloballyUniqueIdentifier.InSubstring}]");
+
+            Thread.Sleep(2000);
+
+            Console.Beep();
 
             Console.Write("[");
             MenuSkeleton();
@@ -106,20 +117,20 @@ namespace Guids
             //EditTextFile(TextFileLegacy.ContentsOfLegacy += $"[{OldGloballyUniqueIdentifier.InString}] \n ~ {DateTime.Now}");
             EditTextFile(TextFileLegacy.ContentsOfLegacy += $"[{OldGloballyUniqueIdentifier.InSubstring}] \n ~ {DateTime.Now}");
             
-            using (var fileLegacyToWrite = new StreamWriter(TextFileLegacy.path))
+            using (var fileLegacyToWrite = new StreamWriter(TextFileLegacy.Path))
                 fileLegacyToWrite.WriteLine(TextFileLegacy.ContentsOfLegacy);
 
         }
         static void CleanTextFile()
         {
-            using (var fileLegacyToClean = new StreamWriter(TextFileLegacy.path))
+            using (var fileLegacyToClean = new StreamWriter(TextFileLegacy.Path))
                 fileLegacyToClean.WriteLine();
         }
     
 
         static string ReturnWhatYouReadInTheLegacy()
         {
-            using (var fileLegacyToOpen = new StreamReader(TextFileLegacy.path))
+            using (var fileLegacyToOpen = new StreamReader(TextFileLegacy.Path))
                 return fileLegacyToOpen.ReadToEnd();
         }
     }
