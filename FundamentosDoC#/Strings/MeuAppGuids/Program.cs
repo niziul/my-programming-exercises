@@ -61,8 +61,8 @@ namespace MeuAppGuids
         }
         static void Shows_a_GloballyUniqueIdentifierAndDisplaysTheOldOnes()
         {
-            OldGloballyUniqueIdentifier.InString += OldGloballyUniqueIdentifier.Id;
-            OldGloballyUniqueIdentifier.InSubstring += OldGloballyUniqueIdentifier.Id.ToString().Substring(0, 8);
+            OldGloballyUniqueIdentifier.InString = OldGloballyUniqueIdentifier.Id;
+            OldGloballyUniqueIdentifier.InSubstring = OldGloballyUniqueIdentifier.Id.ToString().Substring(0, 8);
             
 
             Console.WriteLine($"-- New id (used GUID) :\n[{OldGloballyUniqueIdentifier.InSubstring}]");
