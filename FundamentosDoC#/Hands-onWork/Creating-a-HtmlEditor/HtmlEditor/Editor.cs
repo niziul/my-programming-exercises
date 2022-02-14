@@ -7,13 +7,19 @@ namespace HtmlEditor
     {
         public static void Show()
         {
-            Console.Clear();
-
-            Menu.MenuSkeleton("°°°°°°°°°°°°°°°°");
+            Console.WriteLine();
             Menu.MenuHead("MODE EDITOR", ConsoleColor.Blue);
 
             Console.WriteLine();
             Start();
+
+            Console.WriteLine();
+            
+            Thread.Sleep(2000);
+            Menu.MenuSkeleton("<<<<<<<<<<<<<<::>>>>>>>>>>>>>>");
+
+            Console.WriteLine();
+
 
             // .Sleep(5000);
         }
@@ -27,10 +33,17 @@ namespace HtmlEditor
             {
                 file.Append(Console.ReadLine());
                 file.Append(Environment.NewLine);
+                Console.WriteLine();
                 
             } 
-            
+
+            Console.Clear();
+
             Console.WriteLine();
+
+            Viewer.Show(file.ToString());
+
+            Thread.Sleep(7000);
         }
     }
 }

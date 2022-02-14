@@ -16,14 +16,14 @@ namespace HtmlEditor
             
             MenuSkeleton("<<<<<<<<<<<<<<::>>>>>>>>>>>>>>");
             Console.WriteLine();
-
-            // HandleMenuOption();
             
             Thread.Sleep(2000);
+            Console.Clear();
+
 
             Editor.Show();
-
-            MenuSkeleton("<<<<<<<<<<<<<<::>>>>>>>>>>>>>>");
+            
+            Console.Clear();
             
             EndOfMenu();
             Console.WriteLine();
@@ -92,10 +92,7 @@ namespace HtmlEditor
         
         static void EndOfMenu()
         {
-            // Console.BackgroundColor = ConsoleColor.DarkRed;
-            // Console.ForegroundColor = ConsoleColor.Black;
-
-            WriteCentered("> Thanks e tchau, tchau! <", -4, 3);
+            MenuHead("> Thanks e tchau, tchau! <", ConsoleColor.Gray);
 
             Console.BackgroundColor = AttributesForConsoleMenu.BackgroundColorDefaultConsole;
             Console.ForegroundColor = AttributesForConsoleMenu.ForegroundColorDefaultConsole;
