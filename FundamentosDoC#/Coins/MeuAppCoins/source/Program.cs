@@ -30,7 +30,7 @@ namespace Numbers
                 Formatando moedas:            
             */
 
-            var valor = 10.25m;
+            // var valor = 10.25m;
 
             // var culture = CultureInfo.CurrentCulture;
 
@@ -58,12 +58,30 @@ namespace Numbers
 
             // Console.WriteLine(valor.ToString("N", CultureInfo.CreateSpecificCulture("en-US"))); // 10.250
 
-            Console.WriteLine(valor.ToString("P", CultureInfo.CreateSpecificCulture("en-US"))); // 1,025.000%
+            // Console.WriteLine(valor.ToString("P", CultureInfo.CreateSpecificCulture("en-US"))); // 1,025.000%
 
 
 
 
 
+
+
+
+            /*
+                math:
+            */
+
+            var valor = 10539.25m;
+
+            // Console.WriteLine(
+            //     // Math.Round(valor) // 10539
+            //     // Math.Ceiling(valor) // 10540
+            //     Math.Floor(valor) // 10539 
+            // );
+
+            Console.WriteLine(Math.Round(valor));
+            Console.WriteLine(Math.Ceiling(valor));
+            Console.WriteLine(Math.Floor(valor));
         }
     }
 }
