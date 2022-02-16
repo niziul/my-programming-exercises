@@ -80,26 +80,24 @@ namespace MeuAppArrays
                 ForEach:
             */
 
-            var meuArray = new int[5] { 1, 2, 3, 4, 5};
-            meuArray[0] = 12;
+            // var meuArray = new int[5] { 1, 2, 3, 4, 5};
+            // meuArray[0] = 12;
 
-            var funcionarios = new Funcionario[5];
-                funcionarios[0] = new Funcionario() { Id = 2579, Nome = "Luis"};
+            // var funcionarios = new Funcionario[5];
+            //     funcionarios[0] = new Funcionario() { Id = 2579, Nome = "Luis"};
 
-            // Console.WriteLine(meuArray.Length);
+            // // Console.WriteLine(meuArray.Length);
 
-            foreach (var item in meuArray)
-            {
-                Console.WriteLine(item);
-            }
+            // foreach (var item in meuArray)
+            // {
+            //     Console.WriteLine(item);
+            // }
 
-            foreach (var funcionario in funcionarios)
-            {
-                Console.WriteLine(funcionario.Nome);
-                Console.WriteLine(funcionario.Id);
-            }
-
-
+            // foreach (var funcionario in funcionarios)
+            // {
+            //     Console.WriteLine(funcionario.Nome);
+            //     Console.WriteLine(funcionario.Id);
+            // }
 
 
 
@@ -107,6 +105,21 @@ namespace MeuAppArrays
 
 
 
+
+
+            /*
+                Alterando os valores:
+            */
+
+            var primeiro = new int[4];
+            var segundo = new int[4];
+            // var arrb = arr;
+
+            segundo[0] = primeiro[0]; 
+            primeiro.CopyTo(segundo, 0);
+
+            primeiro[0] = 23;
+            Console.WriteLine(segundo[0]);
         }
 
         struct test
