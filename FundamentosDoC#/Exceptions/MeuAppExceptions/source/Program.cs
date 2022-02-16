@@ -138,7 +138,57 @@ namespace MeuAppExceptions
             */
 
             
-            var arr = new int[3];
+            // var arr = new int[3];
+
+            // try
+            // {                
+            //     // for (int index = 0; index < 10; index++)
+            //     // {
+            //     //     // IndexOutOfRangeException: index fora de alcance
+            //     //     Console.WriteLine(arr[index]);
+            //     // }
+
+            //     Cadastrar("");
+            // }
+            // catch (MinhaException ex)
+            // {
+            //     Console.WriteLine(ex.InnerException);
+            //     Console.WriteLine(ex.Message);
+            //     Console.WriteLine(ex.QuandoAconteceu);
+            //     Console.WriteLine("Exceção customizada");
+            // }
+            // catch (IndexOutOfRangeException ex)
+            // {
+            //     Console.WriteLine(ex.InnerException);
+            //     Console.WriteLine(ex.Message);
+            //     Console.WriteLine("Não encontrei o índice na lista");
+            // }
+            // catch (ArgumentNullException ex)
+            // {
+            //     Console.WriteLine(ex.InnerException);
+            //     Console.WriteLine(ex.Message);
+            //     Console.WriteLine("Falha ao cadastrar texto");
+            // }
+            // catch (Exception ex)
+            // {
+            //     Console.WriteLine(ex.InnerException);
+            //     Console.WriteLine(ex.Message);
+
+            //     Console.WriteLine("Ops, algo deu errado!");
+            // }
+
+            
+
+
+
+
+
+
+
+
+            /*
+                Finally:
+            */
 
             try
             {                
@@ -148,7 +198,7 @@ namespace MeuAppExceptions
                 //     Console.WriteLine(arr[index]);
                 // }
 
-                Cadastrar("");
+                Cadastrar("fadlsfkja");
             }
             catch (MinhaException ex)
             {
@@ -175,6 +225,10 @@ namespace MeuAppExceptions
                 Console.WriteLine(ex.Message);
 
                 Console.WriteLine("Ops, algo deu errado!");
+            }
+            finally
+            {
+                Console.WriteLine("Chegou ao fim!");
             }
         }
         
