@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "ZIgZHb4tJwZMAaqT+3yXV4GQSfUD6ioOJJq8besWrdaLwyw5ks56uCaZGHs3JZyy1cSvckTSB+moiXdJM35Dnw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Niziu\\Documents\\GitHub\\EstudosP\\Object-orientation\\Fundamentals\\Interfaces\\Payments\\Payments.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Niziu\\.nuget\\packages\\spectre.console\\0.43.0\\spectre.console.0.43.0.nupkg.sha512"
+  ],
+  "logs": []
+}
