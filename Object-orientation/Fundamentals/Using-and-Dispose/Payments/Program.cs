@@ -15,7 +15,7 @@ class Program
         { 
             AnsiConsole.Status().Spinner(Spinner.Known.Dots).Start("[green]Processing the payment[/]", ctx => { Thread.Sleep(3000); }); 
             AnsiConsole.WriteLine();
-            AnsiConsole.Write(new Markup("[dim green]Processing payment[/] [green]:check_mark:[/]")); 
+            AnsiConsole.Write(new Markup("[dim green]Processed payment[/] [green]:check_mark:[/]")); 
             AnsiConsole.WriteLine(); Thread.Sleep(2000); 
             AnsiConsole.Clear(); 
         }
