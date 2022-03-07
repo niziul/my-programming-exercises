@@ -9,24 +9,27 @@ class Program
     {
         AnsiConsole.Clear();
 
-        var articles = new List<Article>();
-            articles.Add(new Article("Artigo sobre OOP", "orientacao-objetos"));
-        
-        
-        
-        foreach(var article in articles)
-        {
-            AnsiConsole.Write(new Rule("Id").LeftAligned());
-            AnsiConsole.Write(new Markup($"[red]{article.Id}[/]"));
-            AnsiConsole.WriteLine();
+        var courses = new List<Course>();
+        var courseOOP = new Course("Fundamentos OOP", "fundamentos-oop");
 
-            AnsiConsole.Write(new Rule("Title").LeftAligned());
-            AnsiConsole.Write(new Markup($"[green]{article.Title}[/]"));
+        courses.Add(courseOOP);
+
+        var careers = new List<Career>();  
+
+        var careerDotnet = new Career("Especialista .NET", "especialista-dotnet");
+        var careerItem = new CareerItem(1, "Comece por aqui", "", null);
+
+        careerDotnet.Items.Add(careerItem);
+        careers.Add(careerDotnet);
+
+        foreach(var career in careers)
+        {
+            AnsiConsole.Write(career.Title);
             AnsiConsole.WriteLine();
-            
-            AnsiConsole.Write(new Rule("Url").LeftAligned());
-            AnsiConsole.Write(new Markup($"[blue]{article.Url}[/]"));
-            AnsiConsole.WriteLine();
+            foreach(var item in career.Items)
+            {
+                AnsiConsole.Write($"{item.Order} - {item.Title}");
+            }
         }
     }
 }
