@@ -1,4 +1,4 @@
-﻿using Balta.ContentContext;
+﻿using Balta.SharedContext;
 using Spectre.Console;
 
 namespace Balta;

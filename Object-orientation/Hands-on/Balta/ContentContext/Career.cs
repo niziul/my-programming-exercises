@@ -1,4 +1,4 @@
-namespace Balta.ContentContext;
+namespace Balta.SharedContext;
 
 public class Career : Content 
 { 

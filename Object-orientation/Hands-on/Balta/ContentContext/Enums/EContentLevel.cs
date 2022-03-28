@@ -1,4 +1,4 @@
-namespace Balta.ContentContext.Enums;
+namespace Balta.SharedContext.Enums;
 
 public enum EContentLevel
 {

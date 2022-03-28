@@ -1,6 +1,6 @@
-using Balta.ContentContext.Enums;
+using Balta.SharedContext.Enums;
 
-namespace Balta.ContentContext;
+namespace Balta.SharedContext;
 
 public class Lecture : Base
 {
