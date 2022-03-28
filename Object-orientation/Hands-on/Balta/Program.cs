@@ -1,4 +1,5 @@
 ﻿using Balta.SharedContext;
+using Balta.SubscriptionContext;
 using Spectre.Console;
 
 namespace Balta;
@@ -40,5 +41,10 @@ class Program
                 }
             }
         }
+
+        var payPalSubscription = new PayPalSubscription();
+        var student = new Student();
+
+        student.CreateSubscription(payPalSubscription);
     }
 }
