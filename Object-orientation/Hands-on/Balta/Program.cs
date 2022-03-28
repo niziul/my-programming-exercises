@@ -20,6 +20,7 @@ class Program
         var careerItem = new CareerItem(1, "Comece por aqui", "", courseOOP);
 
         careerDotnet.Items.Add(careerItem);
+        
         careers.Add(careerDotnet);
 
         foreach(var career in careers)
@@ -32,6 +33,11 @@ class Program
                 AnsiConsole.Write(new Markup($"[green]Title[/]: {item.Course.Title}"));
                 AnsiConsole.WriteLine();
                 AnsiConsole.Write(new Markup($"[green]Level[/]: {item.Course.Level}"));
+
+                foreach (var notification in item.Notifications)
+                {
+                    AnsiConsole.MarkupLine($"[blue]{notification.Property}[/] - [red]{notification.Message}[/]");
+                }
             }
         }
     }
