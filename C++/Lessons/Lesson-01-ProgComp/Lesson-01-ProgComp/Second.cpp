@@ -3,7 +3,7 @@ using namespace std;
 
 int main()
 {
-	int carrots;     // declares an integer variable
+    int carrots;         // declares an integer variable
     int pineapples;
     int lostCarrots;
 
