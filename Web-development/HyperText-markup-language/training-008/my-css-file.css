@@ -1,0 +1,30 @@
+html 
+{
+    background-color: #ff00005f;
+    font-size: 20px;
+}
+
+h2
+{
+    color: #ffdca170;
+
+    /* text-shadow: #ff00005f 5px 0 1px; */
+    /* text-shadow: 1px 1px 2px #ffffff; */
+    /* box-shadow: 3px 3px 3px #ff00005f; */
+    /* box-shadow: 2px 2px 2px 1px #ff000019; */
+}
+ul
+{
+    background: #54524e70;
+    padding: 10px;
+    border: 1px solid rgb(0, 0, 0);
+}
+
+  
+li
+{
+    margin-left: 20px;
+
+    /* border: 4mm ridge rgba(228, 231, 170, 0.6); */
+    /* border-style: inset; */
+}
