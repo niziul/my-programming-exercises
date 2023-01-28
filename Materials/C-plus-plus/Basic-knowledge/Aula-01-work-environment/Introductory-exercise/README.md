@@ -1,0 +1,1 @@
+exercises done in class to demonstrate the initial subjects
