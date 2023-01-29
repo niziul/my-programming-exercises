@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33205.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Grade-point-average-calculator-2.0", "Grade-point-average-calculator-2.0\Grade-point-average-calculator-2.0.vcxproj", "{3DD59400-3EDD-43C5-A79C-B3D25B3C6F1D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3DD59400-3EDD-43C5-A79C-B3D25B3C6F1D}.Debug|x64.ActiveCfg = Debug|x64
+		{3DD59400-3EDD-43C5-A79C-B3D25B3C6F1D}.Debug|x64.Build.0 = Debug|x64
+		{3DD59400-3EDD-43C5-A79C-B3D25B3C6F1D}.Debug|x86.ActiveCfg = Debug|Win32
+		{3DD59400-3EDD-43C5-A79C-B3D25B3C6F1D}.Debug|x86.Build.0 = Debug|Win32
+		{3DD59400-3EDD-43C5-A79C-B3D25B3C6F1D}.Release|x64.ActiveCfg = Release|x64
+		{3DD59400-3EDD-43C5-A79C-B3D25B3C6F1D}.Release|x64.Build.0 = Release|x64
+		{3DD59400-3EDD-43C5-A79C-B3D25B3C6F1D}.Release|x86.ActiveCfg = Release|Win32
+		{3DD59400-3EDD-43C5-A79C-B3D25B3C6F1D}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0C3FC818-4DBF-4C9D-8E85-6A33962628B1}
+	EndGlobalSection
+EndGlobal
