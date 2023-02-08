@@ -1,0 +1,9 @@
+
+*.txt
+*.log
+*.recipe
+*.ipch
+*.db
+*.lock
+*.vsidx
+*.suo
