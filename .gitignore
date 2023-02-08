@@ -7,3 +7,9 @@
 *.lock
 *.vsidx
 *.suo
+*.ilk
+*.tlog
+*.obj
+*.idb
+*.pdb
+*.exe
