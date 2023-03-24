@@ -59,7 +59,7 @@ int main()
 
 int low_bits(int user_value)
 {
-	auto mask = 65'535;
+	auto mask = 32767i16;
 
 	return user_value & mask;
 }
