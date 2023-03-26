@@ -26,43 +26,44 @@
 		```
 */
 
+#define next_line "\n";
+
 #include <iostream>
 #include <cfloat>
 
 using std::cout;
-using std::endl;
 
 int main()
 {
-	cout << "Number of Significant Digits" << endl;
-	cout << "------------------------ ------------ ------ --- -- -" << endl;
-	cout << "--] float	:"		<< FLT_DIG << endl;
-	cout << "--] double	:"		<< DBL_DIG << endl;
-	cout << "--] long double :" << LDBL_DIG << endl;
-	cout << "------------------------ ------------ ------ --- -- -" << endl;
+	cout << "Number of Significant Digits" << next_line;
+	cout << "------------------------ ------------ ------ --- -- -" << next_line;
+	cout << "--] float       :" << FLT_DIG << next_line;
+	cout << "--] double      :" << DBL_DIG << next_line;
+	cout << "--] long double :" << LDBL_DIG << next_line;
+	cout << "------------------------ ------------ ------ --- -- -" << next_line;
 
-	cout << endl;
-	cout << endl;
+	cout << next_line;
+	cout << next_line;
 
-	cout << "Maximum Exponent Values" << endl;
-	cout << "------------------------ ------------ ------ --- -- -" << endl;
-	cout << "--] float	:"		<< FLT_MAX_10_EXP << endl;
-	cout << "--] double	:"		<< DBL_MAX_10_EXP << endl;
-	cout << "--] long double :" << LDBL_MAX_10_EXP << endl;
-	cout << "------------------------ ------------ ------ --- -- -" << endl;
+	cout << "Maximum Exponent Values" << next_line;
+	cout << "------------------------ ------------ ------ --- -- -" << next_line;
+	cout << "--] float       :" << FLT_MAX_10_EXP << next_line;
+	cout << "--] double      :" << DBL_MAX_10_EXP << next_line;
+	cout << "--] long double :" << LDBL_MAX_10_EXP << next_line;
+	cout << "------------------------ ------------ ------ --- -- -" << next_line;
 
-	cout << endl;
-	cout << endl;
+	cout << next_line;
+	cout << next_line;
 
-	cout << "Number of Bits in the Mantissa" << endl;
-	cout << "------------------------ ------------ ------ --- -- -" << endl;
-	cout << "--] float	:"		<< FLT_MANT_DIG << endl;
-	cout << "--] double	:"		<< DBL_MANT_DIG << endl;
-	cout << "--] long double :" << LDBL_MANT_DIG << endl;
-	cout << "------------------------ ------------ ------ --- -- -" << endl;
+	cout << "Number of Bits in the Mantissa" << next_line;
+	cout << "------------------------ ------------ ------ --- -- -" << next_line;
+	cout << "--] float       :" << FLT_MANT_DIG << next_line;
+	cout << "--] double      :" << DBL_MANT_DIG << next_line;
+	cout << "--] long double :" << LDBL_MANT_DIG << next_line;
+	cout << "------------------------ ------------ ------ --- -- -" << next_line;
 
-	cout << endl;
-	cout << endl;
+	cout << next_line;
+	cout << next_line;
 
 	system("pause");
 }
