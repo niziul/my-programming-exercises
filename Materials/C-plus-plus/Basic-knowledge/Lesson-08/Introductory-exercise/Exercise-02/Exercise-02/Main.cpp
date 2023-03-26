@@ -30,7 +30,7 @@ int main()
 	cout << next_line;
 
 	cout.setf(ios_base::fixed,
-			  ios_base::floatfield);
+		      ios_base::floatfield);
 
 	cout.precision(8);
 	
