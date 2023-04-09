@@ -1,9 +1,9 @@
 /*
 	[ description of second learning exercise ] :
-		- O ponto flutuante possui uma representação binária que se divide eme mantissa,
-		  sinal da mantissa e expoente. Os bits podem ser transformados em valor atrvés da
-		  fórmula v = s * 2(e-127) * (1 + m). Descubra o valor ponto flutuante correspondente
-		  a seguinte codificação binária de 32 bits:
+		- The floating point has a binary representation that is divided into a mantissa,
+		  mantissa sign and exponent. The bits can be transformed into value using the formula
+		  formula v = s * 2(e-127) * (1 + m). Find the corresponding floating point value
+		  the following 32-bit binary encoding:
 
 		  ]
 			1 1 0 0 1 0 0 0 0 0 1 1 0 0 0 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0
