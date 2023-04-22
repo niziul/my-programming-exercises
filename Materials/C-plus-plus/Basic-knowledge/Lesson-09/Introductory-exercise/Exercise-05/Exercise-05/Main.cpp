@@ -26,16 +26,16 @@ using std::cout;
 int main()
 {
 	auto nextline
-         = '\n';
+             = '\n';
 
 	auto random_number
-         = 0;
+             = 0;
 
 	auto min
-         = 0;
+             = 0;
 
 	auto max
-         = 0;
+             = 0;
 
 	cout << "------=-- --=----=-- --=----=-- --=------" << nextline;
 
@@ -58,7 +58,7 @@ int main()
 	cout << "Randomizing a value between \'" << min << "\' and \'" << max << "\'" << nextline;
 	
 	random_number
-         = min + rand() % (max - min + 1);
+             = min + rand() % (max - min + 1);
 
 	cout << "--] \'" << random_number << "\'" << nextline;
 
