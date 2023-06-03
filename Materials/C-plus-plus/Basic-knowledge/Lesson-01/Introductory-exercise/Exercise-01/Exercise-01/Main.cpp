@@ -1,3 +1,11 @@
+/*
+	[ output ] :
+		```
+			Welcome to C plus plus!
+			My first program in C plus plus!
+		```
+*/
+
 #include <iostream>
 
 using namespace std;
