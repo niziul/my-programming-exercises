@@ -1,3 +1,11 @@
+/*
+	[ output ] :
+		```
+			I have 25 carrots.
+			Now i have 24 carrots.
+		```
+*/
+
 #include <iostream>
 
 using namespace std;
