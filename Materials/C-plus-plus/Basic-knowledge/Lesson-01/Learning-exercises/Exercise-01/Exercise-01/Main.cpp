@@ -1,3 +1,21 @@
+/*
+	[ output ] :
+		```
+			------------------------------
+			Grade Point Average Calculator
+			------------------------------
+			First Grade: 6.5
+
+			Second Grade: 4.3
+
+			Third Grade: 7.5
+
+			-------------------
+			Grade Point Average
+			-------------------
+			Average: 6.1
+		```
+*/
 #include <iostream>
 
 int main()
