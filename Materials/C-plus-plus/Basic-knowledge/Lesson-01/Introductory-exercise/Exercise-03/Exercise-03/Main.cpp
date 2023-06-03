@@ -1,3 +1,12 @@
+/*
+	[ output ] :
+		```
+			Amount of days: 30 
+
+			30 days have 720 hours
+		```
+*/
+
 #include <iostream>
 
 using namespace std;
