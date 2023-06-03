@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33205.214
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Computer-programming-carrots", "Computer-programming-carrots\Computer-programming-carrots.vcxproj", "{F23FEFE0-3FDC-4E18-96D1-97C31F824DA7}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Exercise-02", "Exercise-02\Exercise-02.vcxproj", "{F23FEFE0-3FDC-4E18-96D1-97C31F824DA7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
