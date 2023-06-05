@@ -1,3 +1,12 @@
+/*
+	[ output ]
+		```
+			Av. Abramo Randon
+			770 - Interlagos
+			Caxias do Sul
+		```
+*/
+
 #include <iostream>
 
 using std::cout;
