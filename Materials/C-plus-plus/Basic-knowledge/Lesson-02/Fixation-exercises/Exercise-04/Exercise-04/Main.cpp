@@ -1,3 +1,16 @@
+/*
+	[ output ] :
+		```
+			Product   Amount   Price
+			-------   ------   -----
+			Pineapple    2.5    1.99
+			Carrot       4.6    5.90
+			Lemon       20.5   10.40
+			Apple      345.0  120.30
+			Guava       20.5   56.00
+		```
+*/
+
 #include <iostream>
 
 using std::cout;
