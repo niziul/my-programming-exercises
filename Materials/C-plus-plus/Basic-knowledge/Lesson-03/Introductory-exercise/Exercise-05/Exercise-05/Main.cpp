@@ -1,3 +1,11 @@
+/*
+	[ output ] :
+		```
+			a = 5
+			b = 5
+		```
+*/
+
 #include <iostream>
 
 using std::cout;
