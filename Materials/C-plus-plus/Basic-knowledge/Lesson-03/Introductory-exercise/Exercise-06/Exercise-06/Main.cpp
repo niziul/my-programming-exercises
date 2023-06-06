@@ -1,3 +1,13 @@
+/*
+	[ output ] :
+		```
+			How many carrots do you have?
+			23
+			Here are two more.
+			Now you have 25 carrots.
+		```
+*/
+
 #include <iostream>
 
 using std::cin;
