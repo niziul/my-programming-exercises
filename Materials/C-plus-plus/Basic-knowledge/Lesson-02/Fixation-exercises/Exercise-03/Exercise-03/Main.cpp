@@ -1,3 +1,17 @@
+﻿/*
+	[ output ] :
+		```
+			
+        ▄▄█ ██████
+        ▀O▀▀▀▀▀OO▀
+
+
+        ╔═════╗
+        ╚═════╝
+
+		```
+*/
+
 #include <iostream>
 
 using std::cout;

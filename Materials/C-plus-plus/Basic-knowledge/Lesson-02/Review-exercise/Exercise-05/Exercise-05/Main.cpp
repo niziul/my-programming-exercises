@@ -1,3 +1,10 @@
+/*
+	[ output ] :
+		```
+			I like c++!
+		```
+*/
+
 #include <iostream>
 
 using std::cout;

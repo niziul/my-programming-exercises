@@ -1,3 +1,14 @@
+/*
+	[ output ] :
+		```
+			Product           Price/Kg        Order (Kg)         Total
+			---------       ----------       -----------     ---------
+			Lettuce         R$ 1,25/Kg            3,2/Kg       R$ 4,00
+			Beet            R$ 0,65/Kg            6,0/Kg       R$ 3,90
+			Carrot          R$ 0,90/Kg             10/Kg       R$ 9,00
+		```
+*/
+
 #include <iostream>
 
 using std::cout;

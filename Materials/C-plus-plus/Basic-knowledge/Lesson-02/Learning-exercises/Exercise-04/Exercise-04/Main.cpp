@@ -1,3 +1,10 @@
+/*
+	[ output ] :
+		```
+			I am learning C / C++
+		```
+*/
+
 #include <iostream>
 
 using std::cout;

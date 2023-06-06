@@ -1,3 +1,13 @@
+/*
+	[ output ] :
+		```
+			Iron Man
+			Robert
+			Downey Jr
+			Iron Man - Robert Downey Jr
+		```
+*/
+
 #include <iostream>
 
 using std::cout;

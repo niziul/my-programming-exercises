@@ -1,3 +1,10 @@
+/*
+	[ output ] :
+		```
+			I love program!
+		```
+*/
+
 #include <iostream>
 
 using std::cout;

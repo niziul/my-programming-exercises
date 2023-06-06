@@ -1,3 +1,10 @@
+/*
+	[ output ] :
+		```
+			Welcome to the world of c++!
+		```
+*/
+
 #include <iostream>
 
 using namespace std;
