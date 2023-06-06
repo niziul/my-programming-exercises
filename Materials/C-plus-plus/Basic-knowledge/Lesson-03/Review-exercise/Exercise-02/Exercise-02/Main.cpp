@@ -1,3 +1,18 @@
+/*
+	[ description of the second review exercise ] :
+		- Use 'cin' instructions to read the value of hours and minutes for different
+		variables.
+
+	[ output ] :
+		```
+			What hours is it?
+			15:50
+
+			hour: 15
+			minutes: 50
+		```
+*/
+
 #include <iostream>
 
 using std::cin;
