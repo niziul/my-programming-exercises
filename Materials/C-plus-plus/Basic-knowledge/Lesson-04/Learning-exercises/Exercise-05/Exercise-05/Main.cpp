@@ -1,9 +1,9 @@
 /*
 	[ description of the fifth learning exercise ] :
-		- Write a program that asks the user to enter an integer
-		  ( positive or negative ). Create and use a function called absolute() to find
-		  the absolute value of a number. The absolute() function should take an integer value
-		  as parameter and return its absolute value.
+		- Write a program that asks the user to enter an integer ( positive or negative ).
+		  Create and use a function called absolute() to find the absolute value of a number.
+		  The absolute() function should take an integer value as parameter and return its absolute
+		  value.
 
 	[ output ] :
 		```
