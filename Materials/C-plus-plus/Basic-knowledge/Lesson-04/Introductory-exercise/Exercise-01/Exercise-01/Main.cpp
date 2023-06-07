@@ -1,3 +1,14 @@
+/*
+	[ output ] :
+		```
+			What is the area of your house in square meters?
+			- area ( ex: 6.25 ) : 6.25
+
+
+			[ This is equivalent to a square with 2.5 meters on a side. ]
+		```
+*/
+
 #include <iostream>
 #include <cmath>
 
