@@ -1,3 +1,12 @@
+/*
+	[ output ] :
+		```
+			amount of carrots = 25
+			amount of lettuces = 25
+			amount of tomatoes = 25
+		```
+*/
+
 #include <iostream>
 
 using std::cout;

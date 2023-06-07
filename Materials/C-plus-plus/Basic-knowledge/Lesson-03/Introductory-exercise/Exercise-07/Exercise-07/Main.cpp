@@ -1,3 +1,16 @@
+/*
+	[ output ] :
+		```
+			carrots: 10
+			lettuces: 20
+			pineapple: 30
+
+			Amount of carrots: 10
+			Amount of lettuces: 20
+			Amount of pineapple: 30
+		```
+*/
+
 #include <iostream>
 
 using std::cin;
@@ -21,7 +34,7 @@ int main()
 
 	cout << endl;
 
-	cout << "Amount of corrots: " << carrots << endl;
+	cout << "Amount of carrots: " << carrots << endl;
 	cout << "Amount of lettuces: " << lettuces << endl;
 	cout << "Amount of pineapple: " << pineapple << endl;
 

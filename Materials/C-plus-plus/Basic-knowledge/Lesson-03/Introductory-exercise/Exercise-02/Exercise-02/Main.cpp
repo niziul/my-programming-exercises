@@ -1,3 +1,11 @@
+/*
+	[ output ] :
+		```
+			I have 25 carrot.
+			Now i have 24 carrots.
+		```
+*/
+
 #include <iostream>
 
 using std::cout;

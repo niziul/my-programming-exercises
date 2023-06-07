@@ -1,3 +1,10 @@
+/*
+	[ output ] :
+		```
+			Welcome to c plus plus!
+		```
+*/
+
 #include <iostream>
 
 using std::cout;

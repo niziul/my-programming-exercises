@@ -1,3 +1,11 @@
+/*
+	[ output ] :
+		```
+			The letter M has 3 legs.
+			Ten letters M has 30 legs.
+		```
+*/
+
 #include <iostream>
 
 using std::cout;

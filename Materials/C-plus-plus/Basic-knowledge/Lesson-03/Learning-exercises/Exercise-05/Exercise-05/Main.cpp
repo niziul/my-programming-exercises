@@ -1,3 +1,18 @@
+/*
+	[ description of the fifth learning exercise ] :
+		- Build a program that asks the user for the current time. Declare variables to receive the
+		hour and minutes separately. After receiving the current time, tell the user that his clock is
+		is one hour behind, and display the correct time, with the time advanced by one hour.
+
+	[ output ] :
+		```
+			What time ( ex: 10 : 54 ) is it?
+			- 10:54
+
+			[ Your clock is running late! ] - it's now 11h:54m
+		```
+*/
+
 #include <iostream>
 
 using std::cin;

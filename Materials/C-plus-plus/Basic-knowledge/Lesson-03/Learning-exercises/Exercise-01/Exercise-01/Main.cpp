@@ -1,3 +1,24 @@
+/*
+	[ description of the first learning exercise ] :
+		- Build a program to calculate the amount of money spent by a smoker. The program
+		should read the number of years that the user smokes, the number of cigarettes smoked per day
+		and the price of a 20 cigarette pack.
+
+	[ output ] :
+		```
+			How many years have you smoked?
+			: 10
+
+			How many cigarettes do you smoke a day?
+			: 5
+
+			What is the average price of a pack of cigarettes?
+			: 6.50
+
+			[ By 10 years, you have spent a total of US$5931.25 on cigarettes! ]
+		```
+*/
+
 #include <iostream>
 
 using std::cin;
