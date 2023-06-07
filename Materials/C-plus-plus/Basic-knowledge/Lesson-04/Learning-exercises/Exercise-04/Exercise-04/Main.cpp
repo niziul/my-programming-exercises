@@ -1,10 +1,9 @@
 ﻿/*
 	[ description of the fourth learning exercise ] -
 		- The volume of a cylinder is given by the formula V = πr²h, where r is the radius of the base, h is the
-		  height of the cylinder and π is 3.14159. Write a function called volume_cylinder()
-		  that takes the height and radius of the base and returns the volume of the cylinder. Write a main
-		  main program that reads the height and radius of a cylinder, and use the function
-		  volume_cylinder() function to find its volume and then show the result on the screen.
+		  height of the cylinder and π is 3.14159. Write a function called volume_cylinder() that takes the height
+		  and radius of the base and returns the volume of the cylinder. Write a main main program that reads the height
+		  and radius of a cylinder, and use the function volume_cylinder() to find its volume and then show the result on the screen.
 
 	[ output ] :
 		```
