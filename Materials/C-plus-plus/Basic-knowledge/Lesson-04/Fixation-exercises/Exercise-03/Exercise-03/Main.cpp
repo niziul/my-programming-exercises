@@ -2,10 +2,9 @@
 	[ description of the third fixation exercise ] :
 		- Write a program that calls a function named one_three(). This function should
 		  display on the screen the word "One", call the function named two(), and then display the
-		  word "Three". The function two() should display the word "Two" on the screen. The function
-		  main() function should say "Starting now:", call the function one_three(), and then
-		  then display the word "Done!
-
+		  word "Three". The function two() should display the word "Two" on the screen. The function main()
+		  function should say "Starting now:", call the function one_three(), and then display the word "Done!
+		  
 	[ output ] :
 		```
 			Starting now:

@@ -1,3 +1,14 @@
+/*
+	[ output ] :
+		```
+			A c++ program always starts with the main function.
+
+			Functions can also be invoked from the maain function.
+			Functions can also be invoked from other functions.
+			Functions can also be invoked more than once.
+		```
+*/
+
 #include <iostream>
 
 using std::cout;

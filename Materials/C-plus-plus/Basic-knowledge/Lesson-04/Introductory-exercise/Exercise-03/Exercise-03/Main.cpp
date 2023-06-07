@@ -1,3 +1,10 @@
+/*
+	[ output ] :
+		```
+			I wish everyone a Happy New Year and a Happy Christmas
+		```
+*/
+
 #include <iostream>
 
 using std::cout;
