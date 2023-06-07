@@ -1,3 +1,27 @@
+/*
+	[ description of the sixth learning exercise ] :
+		- Build a program that calculates the base area and volume of a rectangular prism.
+		First, ask the user for the values of the sides of the base of the prism. Calculate the base area,
+		assign it to a variable and display the value of this variable. Then, ask for the height of the prism, use
+		the formula 'V = AbH' to calculate the volume of the prism, assign this value to another variable and show
+		the result.
+
+	[ output ] :
+		```
+			What is the first value of the side of the base of the prism?
+			: 10
+			What is the second value of the side of the base of the prism?
+			: 8
+
+			[ The area of the base of the prism is = 80 ]
+
+			What is the height of the prism?
+			: 3
+
+			[ The volume of the prism is = 240 ]
+		```
+*/
+
 #include <iostream>
 
 using std::cin;
