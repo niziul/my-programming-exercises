@@ -1,3 +1,13 @@
+/*
+	[ output ] :
+		```
+			[main();] function will call the [simple();] function!
+
+
+			I'm a simple function!
+		```
+*/
+
 #include <iostream>
 
 using std::cout;
