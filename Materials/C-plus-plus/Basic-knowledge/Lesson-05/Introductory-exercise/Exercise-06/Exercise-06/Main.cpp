@@ -1,3 +1,10 @@
+/*
+	[ output ] :
+		```
+			The lessons are 60 hours long.
+		```
+*/
+
 #include <iostream>
 
 using std::cout;
