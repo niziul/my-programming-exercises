@@ -1,3 +1,10 @@
+/*
+	[ output ] :
+		```
+			[ result: 10 ]
+		```
+*/
+
 #include <iostream>
 
 using std::cout;
