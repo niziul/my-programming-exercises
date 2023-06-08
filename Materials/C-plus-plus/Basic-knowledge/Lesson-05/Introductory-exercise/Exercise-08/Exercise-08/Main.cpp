@@ -1,3 +1,14 @@
+/*
+	[ output ] :
+		```
+			how many push-ups do you want to do?
+			: 76
+
+
+			[ Do 76 pushups ]
+		```
+*/
+
 #include <iostream>
 
 void pushup(int);
