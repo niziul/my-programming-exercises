@@ -1,3 +1,10 @@
+/*
+	[ output ] :
+		```
+			[ Do 5 push-ups! ]
+		```
+*/
+
 #include <iostream>
 
 using std::cin;
