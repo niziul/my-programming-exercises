@@ -1,3 +1,14 @@
+/*
+	[ output ] :
+		```
+			Enter two numbers ( ex: 6 7 )
+			: 6 7
+
+
+			[ The biggest of them = 7 ]
+		```
+*/
+
 #include <iostream>
 
 using std::cin;
