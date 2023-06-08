@@ -1,3 +1,10 @@
+/*
+	[ output ] :
+		```
+			8
+		```
+*/
+
 #include <iostream>
 
 int num;
