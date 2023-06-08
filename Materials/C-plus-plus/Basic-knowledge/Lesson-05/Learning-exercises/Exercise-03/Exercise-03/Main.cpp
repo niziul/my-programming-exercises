@@ -10,7 +10,7 @@
 		  |
 
 		  Create a function that takes the coordinates ( x,y ) of a vector and returns its
-		  modulus. Include the library "cmath" and use the functions "sqrt" and "pow" to calculate square root
+		  modulus. Include the library "cmath" and use the functions "sqrt" and "pow" to calculate
 		  square root and potentiation.
 
 	[ output ] :
