@@ -1,3 +1,16 @@
+/*
+	[ output ] :
+		```
+			[ Starting ]
+
+
+
+
+			what's the password?
+			: prutttt6
+		```
+*/
+
 #include <iostream>
 
 using std::cin;
