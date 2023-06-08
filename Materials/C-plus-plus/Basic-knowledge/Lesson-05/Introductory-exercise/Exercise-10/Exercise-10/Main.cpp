@@ -1,3 +1,12 @@
+/*
+	[ output ] :
+		```
+			[ x ] - before:   1, [ y ] - before:   2
+			[ x ] - inside:   3, [ y ] - inside:   3
+			[ x ] - after:    3, [ y ] - after:    2
+		```
+*/
+
 #include <iostream>
 
 using std::cout;
