@@ -1,3 +1,16 @@
+/*
+	[ output ] :
+		```
+			Today's exercises:
+
+
+			[ do 10 push-ups ]
+
+
+			[ do 20 abdominals ]
+		```
+*/
+
 #include <iostream>
 #include "gym.h"
 

@@ -1,3 +1,14 @@
+/*
+	[ output ] :
+		```
+			What is the distance in meters that you want to convert to centimeters?
+			: 45
+
+
+			[ 45 meters = 4500 centimeters ]
+		```
+*/
+
 #include <iostream>
 
 using std::cin;

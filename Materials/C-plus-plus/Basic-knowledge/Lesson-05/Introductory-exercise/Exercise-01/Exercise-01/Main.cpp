@@ -1,3 +1,15 @@
+/*
+	[ output ] :
+		```
+			[ Close session ]
+
+			- session id: 3242
+
+
+			[ Finishing session number: 3242 ]
+		```
+*/
+
 #include <iostream>
 
 using std::cin;

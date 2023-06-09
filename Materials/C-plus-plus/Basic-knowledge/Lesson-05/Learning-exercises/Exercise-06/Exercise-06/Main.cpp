@@ -1,10 +1,10 @@
 /*
 	[ description of the sixth learning exercise ] :
 		- Create 2 functions, one that squares a number, the other cubes it. In the main
-		  function, take a value from the user and square the number receivereturn the value cubedd, cube it, and finally
-		  cube, and finally, show the cube of the square of this number, i.e., pass the result
-		  from the square function to the cube function. This can be done by passing the call
-		  of the square function as an argument to the cube function.
+		  function, take a value from the user and square the number receive return the value
+		  cube, and finally, show the cube of the square of this number, i.e., pass the result from
+		  the square function to the cube function. This can be done by passing the call of the square
+		  function as an argument to the cube function.
 
 	[ output ] :
 		```
