@@ -1,7 +1,7 @@
 /*
 	[ description of the third learning exercise ] :
-		- Modify the program below so that it continues to use 16 bits for the
-		  variable "x" and 32 bits for variable "y", but without overflowing;
+		- Modify the program below so that it continues to use 16 bits for
+		  the variable "x" and 32 bits for variable "y", but without overflowing;
 
 		  ]
 				#include <iostream>
