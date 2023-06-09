@@ -1,3 +1,33 @@
+/*
+	[ output ] :
+		```
+			[ short
+			- 2 bytes
+
+			[ int
+			- 4 bytes
+
+			[ long
+			- 4 bytes
+
+			[ long long
+			- 8 bytes
+
+
+			[ int
+			- 4 bytes
+
+			[ short
+			- 32767 bytes
+
+			[ long
+			- 2147483647
+
+			[ long long
+			- 9223372036854775807
+		```
+*/
+
 #include <iostream>
 #include <climits>
 
