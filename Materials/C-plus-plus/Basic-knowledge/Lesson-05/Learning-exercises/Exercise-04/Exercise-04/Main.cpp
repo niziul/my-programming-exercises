@@ -1,13 +1,11 @@
 /*
 	[ description of the fourth learning exercise ] :
 		- Polar coordinates represent a vector by its angle with the horizontal axis of the
-		  horizontal axis of the Cartesian plane and by its length, also called
-		  norm or modulus. The angle that the vector forms with the horizontal can be
-		  found by the arc tangent:
+		  Cartesian plane and by its length, also called norm or modulus. The angle that the vector
+		  forms with the horizontal can be found by the arc tangent:
 
 		  The function "atan2" from the library "<cmath>" returns the angle in radians. To get the
-		  to get the angle in degrees you have to convert it by multiplying the result by 180 and
-		  dividing by PI.
+		  angle in degrees you have to convert it by multiplying the result by 180 and dividing by PI.
 
 		  Write a function that takes the coordinates ( x , y ) of a vector and returns its
 		  angle in degrees.
