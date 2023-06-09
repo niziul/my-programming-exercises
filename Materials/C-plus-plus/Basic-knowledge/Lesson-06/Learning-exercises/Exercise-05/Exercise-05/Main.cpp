@@ -1,12 +1,11 @@
 /*
 	[ description of the fifth learning exercise ] :
 		- Build an "isShort()" function to check if a number fits into 16 bits and
-		  an "isInt()" function to check if a number fits into 32 bits. To achieve
-		  this goal, the functions should always take the value in a larger number 
-		  of bits and use the constants and use the constants defined in the header 
-		  file "<climits>" to check whether check whether the numbers return a boolean 
-		  value "true" or "false". Build a program to test the functions, as in the 
-		  execution examples below.
+		  an "isInt()" function to check if a number fits into 32 bits. To achieve this
+		  goal, the functions should always take the value in a larger number of bits and
+		  use the constants and use the constants defined in the header file "<climits>" to 
+		  check whether check whether the numbers return a boolean value "true" or "false". Build 
+		  a program to test the functions, as in the execution examples below.
 
 		  Execution Example 1:
 		  ] 
@@ -39,7 +38,7 @@
 
 			- Execution Example 1:
 
-			Enter an interger value
+			Enter an integer value
 			: 300
 
 
@@ -50,7 +49,7 @@
 
 			- Execution Example 2: 
 
-			Enter an interger value
+			Enter an integer value
 			: 70000
 
 
@@ -61,7 +60,7 @@
 
 			- Execution Example 3:
 
-			Enter an interger value
+			Enter an integer value
 			: 5000000000
 
 
@@ -83,7 +82,7 @@ bool is_int(unsigned long long);
 
 int main()
 {
-	unsigned long long interger_value;
+	unsigned long long integer_value;
 
 	cout << "---------- ------ -- -" << endl;
 	cout << " Is_Short or Is_Int " << endl;
@@ -92,31 +91,31 @@ int main()
 	cout << endl;
 	cout << endl;
 
-	cout << "Enter an interger value" << endl;
+	cout << "Enter an integer value" << endl;
 	cout << ": ";
-	cin >> interger_value;
+	cin >> integer_value;
 
 	cout << endl;
 	cout << endl;
 
-	if ( is_short( interger_value ) )
+	if ( is_short( integer_value ) )
 	{
-		cout << "[ " << interger_value << " fits in 16 bits! ]" << endl;
+		cout << "[ " << integer_value << " fits in 16 bits! ]" << endl;
 	}
 	else
 	{
-		cout << "[ " << interger_value << " does not fit in 16 bits! ]" << endl;
+		cout << "[ " << integer_value << " does not fit in 16 bits! ]" << endl;
 	}
 
 	cout << endl;
 
-	if ( is_int( interger_value ) )
+	if ( is_int( integer_value ) )
 	{
-		cout << "[ " << interger_value << " fits in 32 bits! ]" << endl;
+		cout << "[ " << integer_value << " fits in 32 bits! ]" << endl;
 	}
 	else
 	{
-		cout << "[ " << interger_value << " does not fit in 32 bits! ]" << endl;
+		cout << "[ " << integer_value << " does not fit in 32 bits! ]" << endl;
 	}
 
 	cout << endl;
