@@ -1,10 +1,9 @@
 /*
 	[ description of the second learning exercise ] :
 		- Use the "#define" directive to create symbolic constants for the price of a loaf of bread
-		  ( US$0.30 ) and for the price of a pastry ( US$0.25 ). In the main function, ask the
-		  how many loaves of bread and how many cakes he wants. Use the symbolic constants constants
-		  that represent the prices of the products to calculate how much the user will pay, and
-		  show the result on the screen.
+		  ( US$0.30 ) and for the price of a pastry ( US$0.25 ). In the main function, ask the how many
+		  loaves of bread and how many cakes he wants. Use the symbolic constants constants that represent
+		  the prices of the products to calculate how much the user will pay, and show the result on the screen.
 
 	[ output ] :
 		```
