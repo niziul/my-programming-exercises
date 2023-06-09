@@ -1,3 +1,14 @@
+/*
+	[ output ] :
+		```
+			Enter an amount of time in hours
+			: 80
+
+
+			[ This is equivalent to 288000 seconds. ]
+		```
+*/
+
 #include <iostream>
 
 using std::cin;

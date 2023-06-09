@@ -1,6 +1,6 @@
 /*
 	[ description of the fourth learning exercise ] :
-		- Change the program so that the result is displayed correctly both in the direct calculation
+		- Change the program so that the result is displayed correctly both in the direct
 		  calculation and in the calculation using the function.
 
 		  ]

@@ -1,8 +1,8 @@
 /*
-	[ description of the third introductory exercise ] :
-		- Write a program that creates four variables, one for each of the types
+	[ description of the third fixation exercise ] :
+		- Write a program that creates four variables, one for each of the
 		  types shown below. The program should show how many bytes each type
-		  type occupies and calculate the total amount of memory used by the variables created.
+		  occupies and calculate the total amount of memory used by the variables created.
 		  
 		  Use spaces in the strings to produce output in the format below:
 		  ]

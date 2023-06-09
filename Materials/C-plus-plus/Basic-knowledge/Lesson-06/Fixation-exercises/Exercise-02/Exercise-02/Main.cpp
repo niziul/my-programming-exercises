@@ -1,7 +1,7 @@
 /*
-	[ description of the second introductory exercise ] :
-		- Write a program that asks how many kilometers you drove and how many liters
-		  of fuel were spent and then show the consumption of your car in km/liter.
+	[ description of the second fixation exercise ] :
+		- Write a program that asks how many kilometers you drove and how many
+		  liters of fuel were spent and then show the consumption of your car in km/liter.
 
 	[ output ] :
 		```

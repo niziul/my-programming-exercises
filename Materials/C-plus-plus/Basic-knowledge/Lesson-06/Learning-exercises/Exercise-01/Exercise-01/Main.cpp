@@ -1,10 +1,9 @@
 /*
 	[ description of the first learning exercise ] :
 		- The company Travel&Tourism has a bus line that runs the route
-		  Mossoró-Natal. Considering that the trips are always made in the same day
-		  same day, develop a program that allows the user to inform the time of departure and arrival
-		  departure and arrival (hour and minute) of the bus. The program must calculate the total time
-		  total time of the trip (in hours and minutes).
+		  Mossoró-Natal. Considering that the trips are always made in the same day,
+		  develop a program that allows the user to inform the time of departure and arrival
+		  (hour and minute) of the bus. The program must calculate the total time of the trip (in hours and minutes).
 
 	[ output ] :
 		```
