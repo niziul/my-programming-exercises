@@ -1,3 +1,25 @@
+/*
+	[ output ] :
+		```
+			[ Black on White ]
+
+
+			[ Intense Yellow with Blue ]
+
+
+			[ Normal Green ]
+
+
+			[ Underlined Red ]
+
+
+			[ 256 Colors ]
+
+
+			[ 256 Colors ]
+		```
+*/
+
 #include <iostream>
 
 using std::cout;
