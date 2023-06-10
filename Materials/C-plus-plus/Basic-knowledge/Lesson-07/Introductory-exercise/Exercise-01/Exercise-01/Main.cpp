@@ -1,3 +1,14 @@
+/*
+	[ output ] :
+		```
+			Enter a character
+			: c
+
+
+			[ Hello! Thanks for the character: 'c' ]
+		```
+*/
+
 #include <iostream>
 
 using std::cin;
