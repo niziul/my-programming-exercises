@@ -1,3 +1,16 @@
+/*
+	[ output ] :
+		```
+			[ The ASCII code for 'M': '77' ]
+
+
+			Adding 1 to the character code...
+
+
+			[ The ASCII code for 'N': '78' ]
+		```
+*/
+
 #include <iostream>
 
 using std::cout;
