@@ -1,10 +1,10 @@
 /*
 	[ description of the first learning exercise ] :
-		- Create a function called encode(); that takes a character, adds 3 to it and
-		  and returns the new encoded character. Create another function called decode() that
-		  takes a character and subtracts 3 from the character received and returns the new
-		  decoded character. Use both functions in a program that receives a character from the user,
-		  encodes the character, and displays the character to the user, decodes it, and displays it again.
+		- Create a function called 'encode();' that takes a character, adds '3' to it and
+		  returns the new encoded character. Create another function called decode() that takes
+		  a character and subtracts '3' from the character received and returns the new decoded character.
+		  Use both functions in a program that receives a character from the user, encodes the character, and displays
+		  the character to the user, decodes it, and displays it again.
 
 	[ output ] :
 		```

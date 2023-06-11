@@ -1,8 +1,8 @@
 /*
 	[ description of the third learning exercise ] :
-		- Build a function called low_bits(); which uses a bitmask to return only the low-order 16 bits of an
-		  only the low-order 16 bits of a number of type 'int'. Test the function by passing an integer
-		  value entered by the user and show the number returned.
+		- Build a function called 'low_bits();' which uses a bitmask to return only the low-order
+		  '16' bits of an number of type 'int'. Test the function by passing an integer value entered
+		  by the user and show the number returned.
 
 	[ output ] :
 		```

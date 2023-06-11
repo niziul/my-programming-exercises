@@ -1,8 +1,9 @@
 ﻿/*
 	[ description of the fifth fixation exercise ] :
-		- Write the functions turn_on_bit, turn_off_bit and test_bit. They should be given an unsigned
-		  char and the bit position. The function testBit should return a boolean indicating the
-		  state of the bit and the others should return the modified unsigned char value.
+		- Write the functions turn_on_bit, turn_off_bit and test_bit. They should be
+		  given an unsigned char and the bit position. The function testBit should return
+		  a 'Boolean' indicating the state of the bit and the others should return the modified
+		  unsigned char value.
 
 	[ output ] :
 		```

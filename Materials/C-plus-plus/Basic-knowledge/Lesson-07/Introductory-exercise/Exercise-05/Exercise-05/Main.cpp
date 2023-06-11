@@ -1,3 +1,10 @@
+/*
+	[ output ] :
+		```
+			state content : [ 254 ]
+		```
+*/
+
 #include <iostream>
 
 using std::cout;

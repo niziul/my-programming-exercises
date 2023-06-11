@@ -1,3 +1,16 @@
+/*
+	[ output ] :
+		```
+			Enter your password: grutie382
+
+
+			Your password has been stolen!
+
+
+			jj the "hack" was here!
+		```
+*/
+
 #include <iostream>
 
 using std::cin;
