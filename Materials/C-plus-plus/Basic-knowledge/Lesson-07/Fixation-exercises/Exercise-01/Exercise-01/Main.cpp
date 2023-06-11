@@ -1,9 +1,9 @@
 /*
 	[ description of the first fixation exercise ] :
-		- Write a function that takes a numeric code, such as 65, and displays the corresponding
-		  the corresponding character from the ASCII table. In the main program you use this function
-		  several times to display the characters corresponding to the numbers 80, 114, 111, 103
-		  67, 111, 109 e 112.
+		- Write a function that takes a numeric code, such as '65', and displays
+		  the corresponding  character from the ASCII table. In the main program you
+		  use this function several times to display the characters corresponding to the
+		  numbers '80', '114', '111', '103', '67', '111', '109' e '112'.
 
 
 	[ output ] :
