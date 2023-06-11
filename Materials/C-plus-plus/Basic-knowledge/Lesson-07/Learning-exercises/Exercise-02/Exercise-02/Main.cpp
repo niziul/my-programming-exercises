@@ -1,9 +1,8 @@
 /*
 	[ description of the second learning exercise ] :
-		- Using the functions created in the previous question, ask the user to enter a
-		  and then ask him if he wants to decode or encode the letter received,
-		  asking him to enter 1 if he wants to encode and 0 if he wants to decode. Use
-		  an "if else" structure.
+		- Using the functions created in the previous question, ask the user to enter a char
+		  and then ask him if he wants to decode or encode the letter received, asking him to enter
+		  '1' if he wants to encode and '0' if he wants to decode. Use an "if else" structure.
 
 	[ output ] :
 		```
