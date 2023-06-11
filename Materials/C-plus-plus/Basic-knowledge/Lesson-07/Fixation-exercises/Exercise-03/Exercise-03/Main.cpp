@@ -1,10 +1,10 @@
 /*
 	[ description of the third fixation exercise ] :
-		- Write a charada() function that takes a character ch and a
-		  number x. The function should return the character that is x places ahead of "ch" in the
-		  in the ASCII table. The function should use charada() several times to display the
-		  word "Papel". This should be done with five calls to the function, with each of the calls
-		  using the respective values for x: 20, 90, 72, 48 and 107.
+		- Write a 'charada()' function that takes a character ch and a number 'x'.
+		  The function should return the character that is 'x' places ahead of 'ch' in the
+		  in the ASCII table. The function should use 'charada()' several times to display the
+		  word 'Papel'. This should be done with five calls to the function, with each of the calls
+		  using the respective values for x: '20', '90', '72', '48' and '107'.
 
 
 	[ output ] :
