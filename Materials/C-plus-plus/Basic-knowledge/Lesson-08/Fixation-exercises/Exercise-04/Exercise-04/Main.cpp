@@ -1,9 +1,9 @@
 ﻿/*
 	[ description of the fourth fixation exercise ] :
-		- The mass of one molecule of water is approximately 3.0 x 10-²³ grams. One
-		  quarter gallon of water is approximately 950 grams. Write a program that asks
-		  for the amount of water in gallons and shows the amount of water molecules of water
-		  contained in this volume.
+		- The mass of one molecule of water is approximately '3.0 x 10-²³' grams. One
+		  quarter gallon of water is approximately '950' grams. Write a program that asks
+		  for the amount of water in gallons and shows the amount of water molecules of gallons
+		  of water contained.
 
 	[ output ] :
 		```
