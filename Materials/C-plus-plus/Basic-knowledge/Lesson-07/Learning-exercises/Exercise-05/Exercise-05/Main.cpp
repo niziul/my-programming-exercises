@@ -1,9 +1,9 @@
 /*
 	[ description of the fifth learning exercise ] :
-		- Build a function called display_bits() that, given an unsigned char value, displays on the screen the
-		  binary representation of that number. The function display_bits() should use the function test_bits()
-		  ( from fixation exercise 5 ) to find out which bits of the received value are equal to 0 and which
-		  are equal to 1.
+		- Build a function called 'display_bits()' that, given an unsigned char value, displays on the
+		  screen the binary representation of that number. The function 'display_bits()' should use the function
+		  'test_bits()' ( from fixation exercise 5 ) to find out which bits of the received value are equal to '0' and which
+		  are equal to '1'.
 
 	[ output ] :
 		```
@@ -12,7 +12,7 @@
 			------------------------ ------------ ------ --- -- -
 
 
-			Digite um valor entre 0 e 255
+			Enter a value between 0 and 255
 			: 143
 
 
@@ -44,7 +44,7 @@ int main()
 	cout << endl;
 	cout << endl;
 
-	cout << "Digite um valor entre 0 e 255" << endl;
+	cout << "Enter a value between 0 and 255" << endl;
 	cout << ": ";
 	cin >> user_value;
 
