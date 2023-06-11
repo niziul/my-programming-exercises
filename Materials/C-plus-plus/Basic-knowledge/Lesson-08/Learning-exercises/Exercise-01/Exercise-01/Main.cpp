@@ -1,8 +1,8 @@
 /*
 	[ description of the first learning exercise ] :
-		- Write a function that calculates the roots of the quadratic equation ax² + bx + c.
-		  Take as arguments to the function the terms a, b, and c of the quadratic equation and show
-		  the result inside the function itself.
+		- Write a function that calculates the roots of the quadratic equation 'ax² + bx + c'.
+		  Take as arguments to the function the terms 'a', 'b', and 'c' of the quadratic equation 
+          and show the result inside the function itself.
 
 	[ output ] :
 		```
