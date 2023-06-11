@@ -1,7 +1,7 @@
 /*
 	[ description of the fourth fixation exercise ] :
-		- Write a program that uses the cout statement along with the
-		  tab character to produce the following output:
+		- Write a program that uses the 'cout' statement along with the tab character to
+		  produce the following output:
 
 		  ]
 			```
