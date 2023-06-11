@@ -1,8 +1,8 @@
 /*
 	[ description of the first fixation exercise ] :
-		- In a previous exercise we wrote a function to calculate a person's BMI.
-		  The function takes the person's height in meters, their body mass in kilograms and returns their
-		  their Body Mass Index. The bmi is the mass divided by the square of the height.
+		- In a previous exercise we wrote a function to calculate a person's 'BMI'. The function
+		  takes the person's height in meters, their body mass in kilograms and returns their Body
+		  Mass Index. The 'BMI' is the mass divided by the square of the height.
 
 		  Now, create two versions of the BMI function: one that works only with values of type
 		  "float and another that works only with values of the type "double". The functions can have

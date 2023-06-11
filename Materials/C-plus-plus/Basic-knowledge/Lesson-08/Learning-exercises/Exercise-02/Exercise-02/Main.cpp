@@ -1,8 +1,8 @@
 /*
 	[ description of second learning exercise ] :
-		- The floating point has a binary representation that is divided into a mantissa,
-		  mantissa sign and exponent. The bits can be transformed into value using the formula
-		  formula v = s * 2(e-127) * (1 + m). Find the corresponding floating point value
+		- The floating point has a binary representation that is divided into
+		  a mantissa sign and exponent. The bits can be transformed into value using the
+		  formula 'v = s * 2(e-127) * (1 + m)'. Find the corresponding floating point value
 		  the following 32-bit binary encoding:
 
 		  ]
