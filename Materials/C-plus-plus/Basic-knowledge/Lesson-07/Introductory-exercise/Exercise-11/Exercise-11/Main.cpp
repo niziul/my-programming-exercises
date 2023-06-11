@@ -1,3 +1,17 @@
+/*
+	[ output ] :
+		```
+			Do you want to turn on which bit ( ex: 3 )
+			: 3
+
+
+			Pattern of the bits that represent the lamp status:
+			------------------------ ------------ ------ --- -- -
+			"167" [ 1 0 1 0 1 1 1 1 ] ( 1 = lamp on | 0 = lamp off )
+			------------------------ ------------ ------ --- -- -
+		```
+*/
+
 #include <iostream>
 
 using std::cin;
