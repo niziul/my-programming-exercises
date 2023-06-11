@@ -1,7 +1,7 @@
 /*
 	[ description of the fourth learning exercise ] :
-		- Build a function called high_bits(); which uses a bitmask to return only the high-order 16 bits of an
-		  only the high-order 16 bits of a number of type 'int'. Test the function by passing an integer
+		- Build a function called 'high_bits();' which uses a bitmask to return only the
+		  high-order 16 bits of a number of type 'int'. Test the function by passing an integer
 		  value entered by the user and show the number returned.
 
 	[ output ] :
