@@ -1,6 +1,6 @@
 /*
 	[ description of the second review exercise ] :
-		- Change the program form the previous exercise so that reading/writing a complex
+		- Change the program from the previous exercise so that reading/writing a complex
 		number is done with 'cin/cout' and the addition and multiplication with the '+' and '*'
 		operators.
 
