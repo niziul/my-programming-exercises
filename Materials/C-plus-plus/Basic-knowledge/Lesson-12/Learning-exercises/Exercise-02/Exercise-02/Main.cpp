@@ -1,6 +1,6 @@
 /*
 	[ description of the second learning exercise ] :
-		- Define a register called: 'translations' to store three 'strings', one for
+		- Define a struct called: 'translations' to store three 'strings', one for
 		each translation of a word, in portuguese, english and spanish. Then create a vector
 		of type 'translations' called dictionary, with space for nine words. Initialize the array
 		with two translations of your choice, remembering that each word must be in all three languages.
@@ -15,7 +15,7 @@
 			- - - - - - - - - - - - - - - - - - - - - - - - - -
 			[pt-br] : Barco
 			[en_us] : Boat
-			[es_es] : Embarcación
+			[es_es] : EmbarcaciÃ³n
 
 			-
 
@@ -43,7 +43,7 @@
 
 			[ pt_br ] - 'Barco';
 			[ en_us ] - 'Boat';
-			[ es_es ] - 'Embarcación';
+			[ es_es ] - 'EmbarcaciÃ³n';
 
 			-
 
