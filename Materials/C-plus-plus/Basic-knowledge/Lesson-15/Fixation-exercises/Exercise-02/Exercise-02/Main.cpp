@@ -7,9 +7,9 @@
 		]
 			struct balloon
 			{
-				int model;			// diameter in meters
+				int model;		// model number
 				char brand[20];		// brand name
-				float diameter;		// model number
+				float diameter;		// diameter in meters
 			};
 		]
 
