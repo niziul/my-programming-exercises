@@ -57,9 +57,6 @@ int main()
 	{
 		if (*(values + i) == '\x00')
 		{
-			i
-				= -2;
-
 			break;
 		}
 
