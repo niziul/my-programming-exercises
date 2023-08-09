@@ -49,7 +49,7 @@ int main()
 		= new char[40];
 
 	auto team_name_ptr
-		= new char;
+		= (char*)nullptr;
 	
 	auto player_name_length_ptr
 		= new int;
