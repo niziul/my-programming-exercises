@@ -86,7 +86,9 @@ int main()
 	cin.getline(word_d, 20);
 
 	cout << endl;
+
 	cout << "-" << endl;
+	
 	cout << endl;
 
 	cout << "- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -" << endl;
@@ -100,9 +102,7 @@ int main()
           +
           strlen(word_c)
           +
-          strlen(word_d)
-          +
-          4;
+          strlen(word_d) + 4;
 
 	auto words
 		= new char[size];
@@ -118,6 +118,8 @@ int main()
 		j++;
 	}
 
+	delete[] word_a;
+
 	*(words + j)
 		= ' ';
 
@@ -130,6 +132,8 @@ int main()
 		
 		j++;
 	}
+
+	delete[] word_b;
 
 	*(words + j)
 		= ' ';
@@ -144,6 +148,8 @@ int main()
 		j++;
 	}
 	
+	delete[] word_c;
+
 	*(words + j)
 		= ' ';
 	
@@ -156,6 +162,8 @@ int main()
 
 		j++;
 	}
+
+	delete[] word_d;
 
 	*(words + j)
 		= '\x00';
@@ -171,10 +179,6 @@ int main()
 	cout << "<@> - - - - - - - - - - - - - - - - - - - - - - - - - - - - <@>" << endl;
 
 	delete[] words;
-	delete[] word_a;
-	delete[] word_b;
-	delete[] word_c;
-	delete[] word_d;
 
 	system("pause");
 }
