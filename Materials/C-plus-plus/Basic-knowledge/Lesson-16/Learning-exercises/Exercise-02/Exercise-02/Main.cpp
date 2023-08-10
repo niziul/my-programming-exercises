@@ -97,12 +97,12 @@ int main()
 	
 	auto size
 		= strlen(word_a)
-          +
-          strlen(word_b)
-          +
-          strlen(word_c)
-          +
-          strlen(word_d) + 4;
+	          +
+	          strlen(word_b)
+	          +
+	          strlen(word_c)
+	          +
+	          strlen(word_d) + 4;
 
 	auto words
 		= new char[size];
