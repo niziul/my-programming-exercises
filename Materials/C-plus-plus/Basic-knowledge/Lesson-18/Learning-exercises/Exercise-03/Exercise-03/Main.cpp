@@ -23,7 +23,7 @@
 
 			- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
-			 - - ] I sent a message to ;
+			- - ] 'I sent a message to';
 
 			- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
@@ -59,14 +59,14 @@ int main()
 	
 	cout << endl;
 	
-	cout << "- - ] ";
+	cout << "- - ] \'";
 
 	for (auto i = 0; *(text + (i + 1)) != '@'; i++)
 	{
 		cout << *(text + i);
 	}
 
-	cout << ";";
+	cout << "\';";
 	cout << endl;
 	cout << endl;
 	
