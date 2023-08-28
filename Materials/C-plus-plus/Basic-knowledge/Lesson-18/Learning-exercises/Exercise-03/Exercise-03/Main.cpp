@@ -61,7 +61,7 @@ int main()
 	
 	cout << "- - ] ";
 
-	for (auto i = 0; *(text + i) != '@'; i++)
+	for (auto i = 0; *(text + (i + 1)) != '@'; i++)
 	{
 		cout << *(text + i);
 	}
