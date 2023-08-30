@@ -88,7 +88,7 @@ int main()
 		if (*number_of_people > 0)
 		{
 			auto i_people
-				= new people[*number_of_people + 1]{};
+				= new people[*number_of_people]{};
 
 			for (auto i = 0; i < *number_of_people; i++)
 			{
