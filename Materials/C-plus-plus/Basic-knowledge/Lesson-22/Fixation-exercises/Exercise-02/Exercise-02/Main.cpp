@@ -60,7 +60,7 @@ using std::isalpha;
 using std::isspace;
 using std::islower;
 using std::isupper;
-using std::toupper;
+using std::tolower;
 using std::toupper;
 
 using std::streamsize;
