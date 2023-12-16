@@ -253,7 +253,7 @@ int main()
 
     total
         += delivery_value
-           +
+           -
            discount_value;
 
     cout << "[ total payable : \t\t\t\t\t US$\'" << total << "\';" << endl;
