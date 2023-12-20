@@ -1,11 +1,11 @@
 /*
     [ description of the fourth learning exercise ] :
         - Make a program that receives the price of a product and
-        its origin code and shows its country of origin. The country
-        of origin follows the table below:
+        its origin code and shows its origin. The origin follows the
+        table below:
 
         ]
-            Origin Code         |       Country of Origin 
+            Origin Code         |       Origin 
             - - - - - - - - - - - - - - - - - - - - - - -
             1 or 2              |       South
             3                   |       North
