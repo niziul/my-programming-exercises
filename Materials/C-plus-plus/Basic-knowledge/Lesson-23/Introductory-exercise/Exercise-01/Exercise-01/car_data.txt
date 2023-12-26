@@ -1,0 +1,8 @@
+[ model             ] : 
+				; 'Mustang GT';
+[ year              ] : 
+				; '2019';
+[ normal price      ] : 
+				; 'US$300000';
+[ promotional price ] : 
+				; 'US$273900';
