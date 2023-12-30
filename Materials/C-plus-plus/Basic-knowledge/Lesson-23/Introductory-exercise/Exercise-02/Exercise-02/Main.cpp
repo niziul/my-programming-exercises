@@ -140,19 +140,19 @@ int main()
 
     cout << "<@> - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - <@>" << endl;
     
+    delete[] file_name;
+    
     if (file_stream.is_open())
     {
-        exit(EXIT_SUCCESS);
-
         file_stream
             .close();
+
+        exit(EXIT_SUCCESS);
     }
     else
     {
         exit(EXIT_FAILURE);
     }
-
-    delete[] file_name;
 
     cin
         .ignore(numeric_limits<streamsize>::max(), '\n');
