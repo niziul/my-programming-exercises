@@ -1,0 +1,3 @@
+Files can be read by character, words or line.
+
+hello.
