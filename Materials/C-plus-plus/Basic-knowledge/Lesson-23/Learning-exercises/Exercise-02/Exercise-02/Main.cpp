@@ -2,7 +2,7 @@
     [ description of the second learning exercise ] :
         - A word is a palindrome if the sequence of letters that
         forms it is the same when read from left to right or from
-        right to left (e.g. 'rairar'). write a function that can find
+        right to left (e.g. 'raiar'). write a function that can find
         out if a word is a palindrome. in this check, disregard upper
         and lower case (i.e 'ana' is a palindrome).
 
@@ -13,13 +13,13 @@
         
         ]
             ```txt
-                no rairar do dia Ana observou que esse radar estava quebrado.
+                no raiar do dia Ana observou que esse radar estava quebrado.
             ```
 
             ```output
                 file: palindromes.txt
                 
-                rair
+                raiar
                 ana
                 esse
                 radar
