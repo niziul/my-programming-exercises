@@ -1,0 +1,15 @@
+<--
+|name				| shift and grade
+-->
+Anita Torcato		| M8
+Bárbara Borja		| A6
+Estevan Prado		| A7
+Eudes Salvado		| M6
+Geovana Casta		| M7
+Pedro Vieira		| A7
+Marcela Arantes		| M6
+Vânia Horta			| A8
+Óscar Neiva			| M7
+Amélia Reino		| M8
+Cláudio Reine		| A6
+Fábia Candeias		| A8
