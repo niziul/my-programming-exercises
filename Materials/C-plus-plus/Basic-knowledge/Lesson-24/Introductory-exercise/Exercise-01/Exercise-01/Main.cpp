@@ -141,7 +141,7 @@ void get_planets_information_in_this(const char* file)
     }
     else
     {
-        cout << "- error when trying to open the file: \'planets.dat\';" << endl;
+        cout << "- error when trying to open the file: \'" << file "\';" << endl;
     }
 }
 
@@ -167,6 +167,6 @@ void set_planets_information_in_this(const char* file, st_planet& planet)
     }
     else
     {
-        cout << "- error when trying to open the file: \'planets.dat\';" << endl;
+        cout << "- error when trying to open the file: \'" << file "\';" << endl;
     }
 }
