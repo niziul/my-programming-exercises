@@ -40,7 +40,7 @@ int main()
     cout << endl;
     
     fin
-        .open("values.dat", ios_base::out
+        .open("values.dat", ios_base::in
                             |
                             ios_base::binary);
 
