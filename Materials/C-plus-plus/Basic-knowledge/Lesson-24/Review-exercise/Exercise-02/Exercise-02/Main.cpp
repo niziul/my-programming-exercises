@@ -30,7 +30,7 @@
 
             - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
-            [ 'dourado' - '250kg' - '20cm'; successfully save ;
+            [ 'dourado' - '250g' - '20cm'; successfully save ;
 
             - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
