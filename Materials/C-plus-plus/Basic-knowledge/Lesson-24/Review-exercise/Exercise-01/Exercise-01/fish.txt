@@ -1,0 +1,6 @@
+dourado 250 20
+tilapia 300 25
+carpa 400 40
+sardinha 50 10
+atum 150 15
+garfish 635.5 75
