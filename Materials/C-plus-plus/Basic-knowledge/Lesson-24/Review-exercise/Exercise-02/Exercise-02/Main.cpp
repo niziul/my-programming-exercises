@@ -129,6 +129,6 @@ void set_fish_information_in_this(const char* file, st_fish& fish)
     }
     else
     {
-        cout << "- error when trying to open the file: \'fish.bin\';" << endl;
+        cout << "- error when trying to open the file: \'" << file << "\';" << endl;
     }
 }
