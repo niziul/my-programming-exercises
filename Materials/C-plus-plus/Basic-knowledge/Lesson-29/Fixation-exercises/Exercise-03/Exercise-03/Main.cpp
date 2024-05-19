@@ -190,7 +190,7 @@ int main()
 
     cout << "<@> - - - - - - - - - - - - - - - - - - - - - - - - - - - - <@>" << endl;
 
-    delete string.str;
+    delete[] string.str;
 
     cin
         .ignore(numeric_limits<streamsize>::max(), '\n');
