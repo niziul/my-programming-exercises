@@ -69,7 +69,7 @@
             {
              amount_of_revision_exercises: '16';
              amount_of_fixation_exercises: '41';
-             amount_of_revision_exercises: '51';
+             amount_of_learning_exercises: '51';
             }
             - total: '108';
 
@@ -80,7 +80,7 @@
             {
              amount_of_revision_exercises: '14';
              amount_of_fixation_exercises: '38';
-             amount_of_revision_exercises: '52';
+             amount_of_learning_exercises: '52';
             }
             - total: '104';
 
@@ -91,7 +91,7 @@
             {
              amount_of_revision_exercises: '10';
              amount_of_fixation_exercises: '38';
-             amount_of_revision_exercises: '53';
+             amount_of_learning_exercises: '53';
             }
             - total: '101';
 
@@ -213,7 +213,7 @@ void unit(ifstream& fin, const int_fast16_t unit_amount, const int_fast16_t line
         cout << "{" << endl;
         cout << " amount_of_revision_exercises: \'" << amount_of_revision_exercises << "\';" << endl;
         cout << " amount_of_fixation_exercises: \'" << amount_of_fixation_exercises << "\';" << endl;
-        cout << " amount_of_revision_exercises: \'" << amount_of_learning_exercises << "\';" << endl;
+        cout << " amount_of_learning_exercises: \'" << amount_of_learning_exercises << "\';" << endl;
         cout << "}" << endl;
 
         cout << "- total: \'" << amount_of_revision_exercises
