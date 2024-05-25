@@ -54,8 +54,8 @@
             {
                     name  : 'GTAIV';
                     price : '85';
-                    hour  : '12';
-                    cost  : '42.5';
+                    hour  : '10';
+                    cost  : '7';
             }
 
             <@> - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - <@>
@@ -124,7 +124,7 @@ int main()
 
     cout << endl;
 
-    play(game, 12);
+    play(game, 10);
 
     cout << "..." << endl;
 
@@ -151,7 +151,9 @@ st_game purchase(const string& title, const float_t price)
     return st_game
            {
                title,
-               price
+               price,
+               price,
+               0
            };
 }
 
@@ -160,6 +162,13 @@ void update(st_game& game, const float_t price)
     game
     .price
         = price;
+
+    if (game.hour > 0)
+    {
+        game
+        .cost
+            = game.cost / game.hour;
+    }
 }
 
 void play(st_game& game, const int_fast16_t time)
@@ -168,9 +177,12 @@ void play(st_game& game, const int_fast16_t time)
     .hour
         += time;
 
-    game
-    .cost
-        = (game.price / 24.0f) * time;
+    if (game.hour > 0)
+    {
+        game
+        .cost
+            = game.cost / game.hour;
+    }
 }
 
 void display(const st_game& game)
