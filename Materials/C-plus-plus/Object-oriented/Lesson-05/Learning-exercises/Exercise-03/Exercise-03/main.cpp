@@ -20,7 +20,27 @@
 
     [ output ] :
         ```
+            <@> - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - <@>
 
+            - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+            ] auto rectangle_a = rectangle{};
+            - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+            ...
+
+            - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+            ] auto rectangle_b = rectangle{point{},point{}};
+            - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+            ...
+
+            - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+            ] auto rectangle_c = rectangle{0,0,0,0};
+            - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+            ...
+
+            <@> - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - <@>
         ```
 */
 
@@ -58,7 +78,7 @@ int main()
     cout << endl;
 
     cout << "- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -" << endl;
-    cout << "] auto rectangle_a = rectangle{point{},point{}};" << endl;
+    cout << "] auto rectangle_b = rectangle{point{},point{}};" << endl;
     cout << "- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -" << endl;
 
     cout << endl;
@@ -79,7 +99,7 @@ int main()
     cout << endl;
 
     cout << "- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -" << endl;
-    cout << "] auto rectangle_a = rectangle{0,0,0,0};" << endl;
+    cout << "] auto rectangle_c = rectangle{0,0,0,0};" << endl;
     cout << "- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -" << endl;
 
     cout << endl;
