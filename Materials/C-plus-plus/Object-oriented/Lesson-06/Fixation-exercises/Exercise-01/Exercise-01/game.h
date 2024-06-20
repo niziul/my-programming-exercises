@@ -21,7 +21,7 @@ public:
     {
         float_t{}
     },
-        hourly_cost
+      hourly_cost
     {
         float_t{}
     },
