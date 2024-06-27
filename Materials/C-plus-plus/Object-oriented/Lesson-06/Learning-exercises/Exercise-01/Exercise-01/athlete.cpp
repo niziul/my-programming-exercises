@@ -6,4 +6,6 @@ void athlete::accumulate(const athlete& athlete)
         += athlete.matches;
     attempts
         += athlete.attempts;
+
+    calculate();
 }
