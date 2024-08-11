@@ -28,6 +28,7 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <Text Include="travel.txt" />
+    <Text Include="trip.txt" />
+    <Text Include="tour.txt" />
   </ItemGroup>
 </Project>

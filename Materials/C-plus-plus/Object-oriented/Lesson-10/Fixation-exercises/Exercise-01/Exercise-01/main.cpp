@@ -97,6 +97,19 @@
 
             <@> - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - <@>
         ```
+
+        ```trip.txt
+            1 50
+            1 20
+        ```
+
+        ```tour.txt
+            outward: 1h:50m
+
+            return: 1h:20m
+
+            total: 8h:10m
+        ```
 */
 
 #include <iostream>
@@ -135,7 +148,7 @@ int main()
     auto fin
         = ifstream
         {
-            "travel.txt"
+            "trip.txt"
         };
     
     if (fin.is_open())
@@ -150,7 +163,7 @@ int main()
     }
     else
     {
-        cout << "file travel.txt not found.\n";
+        cout << "file trip.txt not found.\n";
     }
 
     cout << endl;
@@ -180,7 +193,7 @@ int main()
     auto fout
         = ofstream
         {
-            "travel.txt"
+            "tour.txt"
         };
 
     if (fout.is_open())
@@ -196,7 +209,7 @@ int main()
     }
     else
     {
-        cout << "file travel.txt not found.\n";
+        cout << "file tour.txt not found.\n";
     }
 
     cout << endl;

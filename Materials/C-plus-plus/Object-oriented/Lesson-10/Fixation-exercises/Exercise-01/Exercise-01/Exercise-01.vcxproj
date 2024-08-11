@@ -134,7 +134,8 @@
     <ClInclude Include="lazy_time.h" />
   </ItemGroup>
   <ItemGroup>
-    <Text Include="travel.txt" />
+    <Text Include="tour.txt" />
+    <Text Include="trip.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

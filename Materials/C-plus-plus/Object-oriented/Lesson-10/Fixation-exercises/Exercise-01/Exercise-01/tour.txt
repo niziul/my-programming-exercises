@@ -1,0 +1,6 @@
+outward: 1h:50m
+
+return: 1h:20m
+
+total: 8h:10m
+
